@@ -13,7 +13,6 @@ canvas.height=500;
  
 var ctx = canvas.getContext("2d");
  
-var myMap=new Map(canvas);
 
 var importStations=MyData.data.stations;
 
@@ -64,6 +63,7 @@ var keyCode = e.keyCode;
 
 
 arrayStations=loadStations(importStations);
+var myMap=new Map(canvas,arrayStations);
 
 alert(arrayStations.length);
 
@@ -72,16 +72,7 @@ myMap.drawAllStations(canvas,arrayStations);
 
 
 
-  canvas.addEventListener('mousemove', function (e){
-    var rect = canvas.getBoundingClientRect();
-    var x= (e.clientX - rect.left) / (rect.right - rect.left) * canvas.width;
-    var y= (e.clientY - rect.top) / (rect.bottom - rect.top) * canvas.height;
-    
-
-
-    displayStationInfo (x,y,arrayStations);
-  }
-  );
+  
 
 
   canvas.addEventListener('click', function (e){
@@ -97,53 +88,6 @@ myMap.drawAllStations(canvas,arrayStations);
 );
 
 
-function displayStationInfo(cursor_x,cursor_y,pArrayStations)
-{
-  var rect = canvas.getBoundingClientRect();
-  var canvas_HEIGHT=canvas.height;
-  var canvas_WIDTH=canvas.width;
-
-  var div = document.getElementById("comment");
-  
-  var left  = cursor_x  +10+ "px";
-  var top  = cursor_y  - 10+"px";
-
-  var MIN_LONG=Math.min.apply(Math, pArrayStations.map(function(o) { return o.lon; }))
-
-  //var MAX_LONG=2.538242117;
-  var MAX_LONG=Math.max.apply(Math, pArrayStations.map(function(o) { return o.lon; }))
-
-  //var MIN_LAT=48.76461548;
-  var MIN_LAT=Math.min.apply(Math, pArrayStations.map(function(o) { return o.lat; }))
-
-  //var MAX_LAT=48.94563431;
-  var MAX_LAT=Math.max.apply(Math, pArrayStations.map(function(o) { return o.lat; }))
-  
-  var i=0;
-
-
- 
-
-   div.style.display="none";
-  for (i=0;i<pArrayStations.length;i++)
-  {
-
-    var station_y=canvas_HEIGHT-(canvas_HEIGHT*(pArrayStations[i].lat-MIN_LAT))/(MAX_LAT-MIN_LAT);
-    var station_x=(canvas_WIDTH*(pArrayStations[i].lon-MIN_LONG))/(MAX_LONG-MIN_LONG);
- 
-    if(cursor_x>station_x && cursor_x<station_x+10)
-    {
-      if(cursor_y>station_y && cursor_y<station_y+10)
-      {
-        div.style.display="block";
-        div.style.left = left;
-        div.style.top = top;
-        document.getElementById("comment").innerHTML = pArrayStations[i]
-        break;
-      }
-    }
-  } 
-}
 
 
   function clickStation(cursor_x,cursor_y,pArrayStations)
