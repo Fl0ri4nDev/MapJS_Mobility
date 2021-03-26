@@ -4,8 +4,7 @@ import Map from './map.js';
 //import testClass from "./testClass.js"
 
 
-var startStationID=-1;
-var arrivalStationID=-1;
+
 
 var canvas=document.getElementById("gameScreen");
 canvas.width=500;
@@ -64,97 +63,52 @@ var keyCode = e.keyCode;
 
 arrayStations=loadStations(importStations);
 var myMap=new Map(canvas,arrayStations);
-
-alert(arrayStations.length);
-
 myMap.drawAllStations(canvas,arrayStations);
 
+ 
 
+
+ canvas.addEventListener('click', (e) => {
+  var rect = canvas.getBoundingClientRect();
+  var x= (e.clientX - rect.left) / (rect.right - rect.left) * canvas.width;
+  var y= (e.clientY - rect.top) / (rect.bottom - rect.top) * canvas.height;
+  
+
+  
+  onClickCanvas (canvas,x,y);
 
 
   
+}
 
-
-  canvas.addEventListener('click', function (e){
-    var rect = canvas.getBoundingClientRect();
-    var x= (e.clientX - rect.left) / (rect.right - rect.left) * canvas.width;
-    var y= (e.clientY - rect.top) / (rect.bottom - rect.top) * canvas.height;
-    
-
-
-    clickStation (x,y,arrayStations);
-  }
-  
 );
 
 
 
-
-  function clickStation(cursor_x,cursor_y,pArrayStations)
+function onClickCanvas(canvas,x,y)
 {
-  var rect = canvas.getBoundingClientRect();
-  var canvas_HEIGHT=canvas.height;
-  var canvas_WIDTH=canvas.width;
-
-  var div = document.getElementById("comment");
+  var clickedStationID=myMap.getClickedStationID (canvas,x,y,arrayStations);
+  if (clickedStationID==-1)return;
+  document.getElementById("stationDepart").innerHTML="Depart : "+arrayStations[clickedStationID].stationName;
+  document.getElementById("stationArrivee").innerHTML="Arrivée : ";
   
-  var left  = cursor_x  +10+ "px";
-  var top  = cursor_y  - 10+"px";
 
-  var MIN_LONG=Math.min.apply(Math, pArrayStations.map(function(o) { return o.lon; }))
-
-  //var MAX_LONG=2.538242117;
-  var MAX_LONG=Math.max.apply(Math, pArrayStations.map(function(o) { return o.lon; }))
-
-  //var MIN_LAT=48.76461548;
-  var MIN_LAT=Math.min.apply(Math, pArrayStations.map(function(o) { return o.lat; }))
-
-  //var MAX_LAT=48.94563431;
-  var MAX_LAT=Math.max.apply(Math, pArrayStations.map(function(o) { return o.lat; }))
-  
-  var i=0;
+}
 
 
- 
+/*
+clickStation(canvas,cursor_x,cursor_y,pArrayStations)
+{
 
-  
-  for (i=0;i<pArrayStations.length;i++)
-  {
-
-    var station_y=canvas_HEIGHT-(canvas_HEIGHT*(pArrayStations[i].lat-MIN_LAT))/(MAX_LAT-MIN_LAT);
-    var station_x=(canvas_WIDTH*(pArrayStations[i].lon-MIN_LONG))/(MAX_LONG-MIN_LONG);
- 
-    if(cursor_x>station_x && cursor_x<station_x+10)
-    {
-      if(cursor_y>station_y && cursor_y<station_y+10)
-      {
-        document.title=pArrayStations[i].stationName;
-        if(startStationID<0)
-        {
-          startStationID= i;
-        }
-        else 
-        {
-          if(arrivalStationID>0)
-          {startStationID= i;
-            arrivalStationID=-1;}
-          else
-          {arrivalStationID=i;}
-        }
-        break;
-      }
-    }
-  } 
   
   document.getElementById("stationDepart").innerHTML="Depart : "
   document.getElementById("stationArrivee").innerHTML="Arrivée : "
   
-  if(startStationID>0)document.getElementById("stationDepart").innerHTML="Depart : "+ pArrayStations[startStationID].stationName;
-  if(arrivalStationID>0)
-  {document.getElementById("stationArrivee").innerHTML="Arrivée : "+ pArrayStations[arrivalStationID].stationName;
+  if(this.startStationID>0)document.getElementById("stationDepart").innerHTML="Depart : "+ pArrayStations[this.startStationID].stationName;
+  if(this.arrivalStationID>0)
+  {document.getElementById("stationArrivee").innerHTML="Arrivée : "+ pArrayStations[this.arrivalStationID].stationName;
   
-    
-        document.getElementById("distance").innerHTML="Distance : "+Distance(pArrayStations[startStationID].lat,pArrayStations[startStationID].lon,pArrayStations[arrivalStationID].lat,pArrayStations[arrivalStationID].lon) 
+        document.getElementById("distance").innerHTML="Distance : "+this.Distance(pArrayStations[this.startStationID].lat,pArrayStations[this.startStationID].lon,pArrayStations[arrivalStationID].lat,pArrayStations[arrivalStationID].lon) 
     
 
     canvas.getContext("2d");
@@ -178,24 +132,8 @@ myMap.drawAllStations(canvas,arrayStations);
     
   }
   }
+*/
 
 
 
-
-//Conversion des degrés en radian
-function convertRad(input){
-  return (Math.PI * input)/180;
-}
-
-function Distance(lat_a_degre, lon_a_degre, lat_b_degre, lon_b_degre){
-
- var R = 6378000 //Rayon de la terre en mètre
-
-var lat_a = convertRad(lat_a_degre);
-var lon_a = convertRad(lon_a_degre);
-var lat_b = convertRad(lat_b_degre);
-var lon_b = convertRad(lon_b_degre);
-
-var d = R * (Math.PI/2 - Math.asin( Math.sin(lat_b) * Math.sin(lat_a) + Math.cos(lon_b - lon_a) * Math.cos(lat_b) * Math.cos(lat_a)))
-return d;
-}
+ 
