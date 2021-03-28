@@ -10,7 +10,7 @@ export default class Map{
     
       var div = document.getElementById("comment");
       
-      var left  = cursor_x  +10+ "px";
+      var left  = cursor_x  +50+ "px";
       var top  = cursor_y  - 10+"px";
     
       var MIN_LONG=Math.min.apply(Math, pArrayStations.map(function(o) { return o.lon; }))
