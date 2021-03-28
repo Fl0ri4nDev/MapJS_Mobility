@@ -1,7 +1,7 @@
-export default class Station_Velib{
+export default class Station_Metro{
 
   
-constructor (pLat,pLon, name, id)
+constructor (pLat,pLon, name,pType, id)
 {
   this.height=10;
   this.width=10;
@@ -9,7 +9,8 @@ constructor (pLat,pLon, name, id)
   this.stationID=id;
   this.lat=pLat;
   this.lon=pLon;
-  this.type="velib";
+  this.type=pType;
+
 }
 
 

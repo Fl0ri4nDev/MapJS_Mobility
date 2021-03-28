@@ -1,10 +1,5 @@
-myData_RER={
-  "version": 0.6,
-  "generator": "Overpass API 0.7.54.10 2e325488",
-  "osm3s": {
-    "timestamp_osm_base": "2021-03-28T15:44:12Z",
-    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
-  },
+MyData_METRO_RER={
+  
   "elements": [
 
 {
@@ -20,7 +15,7 @@ myData_RER={
     "ref:FR:STIF": "22236",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1731762",
     "wikipedia": "fr:Malakoff - Rue Étienne Dolet (métro de Paris)"
   }
@@ -41,7 +36,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1883",
     "ref:FR:uic8": "87271395",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727139",
     "wheelchair": "yes",
     "wikidata": "Q2678956",
@@ -62,7 +57,7 @@ myData_RER={
     "railway": "tram_stop",
     "source": "RATP - 07/2012",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -80,7 +75,7 @@ myData_RER={
     "ref:FR:RATP": "446341",
     "source": "RATP - 07/2012",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -103,7 +98,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q649160",
     "wikipedia": "fr:Les Sablons (métro de Paris)"
@@ -128,7 +123,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "start_date": "1900-09-01",
     "subway": "yes",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -149,7 +144,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q690975",
     "wikipedia": "fr:George V (métro de Paris)"
@@ -173,7 +168,7 @@ myData_RER={
     "source": "survey",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1445234",
     "wikipedia": "fr:Franklin D. Roosevelt (métro de Paris)"
@@ -197,7 +192,7 @@ myData_RER={
     "ref:FR:RATP": "1885",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q970075",
     "wikipedia": "fr:Concorde (métro de Paris)"
@@ -219,7 +214,7 @@ myData_RER={
     "ref:FR:STIF": "22075",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q666009",
     "wikipedia": "fr:Tuileries (métro de Paris)"
@@ -242,7 +237,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1461794",
     "wikipedia": "fr:Louvre - Rivoli (métro de Paris)"
@@ -267,7 +262,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q601484",
     "wikipedia": "fr:Châtelet (métro de Paris)"
@@ -288,7 +283,7 @@ myData_RER={
     "ref:FR:STIF": "22074",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1535005",
     "wikipedia": "fr:Saint-Paul (métro de Paris)"
@@ -310,7 +305,7 @@ myData_RER={
     "ref:FR:STIF": "22098",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q647271",
     "wikipedia": "fr:Reuilly - Diderot (métro de Paris)"
@@ -331,7 +326,7 @@ myData_RER={
     "ref:FR:STIF": "22077",
     "station": "subway",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1576928",
     "wikipedia": "fr:Porte de Vincennes (métro de Paris)"
@@ -352,7 +347,7 @@ myData_RER={
     "ref:FR:RATP": "23876",
     "shelter": "yes",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes",
     "wikipedia": "fr:Musée de Sèvres (tramway d'Île-de-France)"
   }
@@ -370,7 +365,7 @@ myData_RER={
     "ref:FR:STIF": "21940",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q613123",
     "wikipedia": "fr:Marcel Sembat (métro de Paris)"
@@ -390,7 +385,7 @@ myData_RER={
     "ref:FR:STIF": "21969",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "limited",
     "wikidata": "Q1415143",
     "wikipedia": "fr:La Motte-Picquet - Grenelle (métro de Paris)"
@@ -410,7 +405,7 @@ myData_RER={
     "ref:FR:STIF": "22176",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1028368",
     "wikipedia": "fr:Cambronne (métro de Paris)"
@@ -430,7 +425,7 @@ myData_RER={
     "ref:FR:STIF": "22171",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1266508",
     "wikipedia": "fr:Dupleix (métro de Paris)"
@@ -447,7 +442,7 @@ myData_RER={
     "railway": "station",
     "railway:ref:DB": "XFGEN",
     "ref:FR:RATP": "5578",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727120",
     "wheelchair": "yes",
     "wikidata": "Q2305273",
@@ -468,7 +463,7 @@ myData_RER={
     "ref:FR:RATP": "1985",
     "ref:FR:STIF": "412836",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775867",
     "wheelchair": "yes",
     "wikidata": "Q1892192",
@@ -486,7 +481,7 @@ myData_RER={
     "name": "Sevran - Beaudottes",
     "railway": "stop",
     "ref:FR:RATP": "1703",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727144",
     "wikidata": "Q3097731",
     "wikipedia": "fr:Gare de Sevran - Beaudottes"
@@ -506,7 +501,7 @@ myData_RER={
     "ref:FR:STIF": "22062",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1885858",
     "wikipedia": "fr:Mairie d'Issy (métro de Paris)"
@@ -527,7 +522,7 @@ myData_RER={
     "ref:FR:STIF": "22061",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1132595",
     "wikipedia": "fr:Corentin Celton (métro de Paris)"
@@ -549,7 +544,7 @@ myData_RER={
     "ref:FR:STIF": "22042",
     "source": "STIF - 12/2016",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no"
   }
 },
@@ -568,7 +563,7 @@ myData_RER={
     "ref:FR:STIF": "22058",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q630642",
     "wikipedia": "fr:Convention (métro de Paris)"
@@ -590,7 +585,7 @@ myData_RER={
     "ref:FR:RATP": "1850",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q140277",
     "wikipedia": "fr:La Défense (métro de Paris)"
@@ -611,7 +606,7 @@ myData_RER={
     "ref:FR:RATP": "5602",
     "ref:FR:uic8": "87393033",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739303",
     "wheelchair": "yes",
     "wikidata": "Q2208443",
@@ -636,7 +631,7 @@ myData_RER={
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739305",
     "wheelchair": "limited",
     "wikidata": "Q800620",
@@ -653,7 +648,7 @@ myData_RER={
     "name": "Bry-sur-Marne",
     "railway": "station",
     "ref:FR:RATP": "1932",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775832",
     "wheelchair": "yes",
     "wikidata": "Q2798552",
@@ -673,7 +668,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1765",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775834",
     "wheelchair": "yes",
     "wikidata": "Q1881833",
@@ -695,7 +690,7 @@ myData_RER={
     "ref:FR:RATP": "5565",
     "ref:FR:uic8": "87276238",
     "route_ref:FR:RER_D": "LOVA; LUCA; SUCA; LOPA; SOVA",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727623",
     "wikidata": "Q2602083",
     "wikipedia": "fr:Gare des Noues"
@@ -713,7 +708,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "23878",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes",
     "wikipedia": "fr:Meudon-sur-Seine (tramway d'Île-de-France)"
   }
@@ -736,7 +731,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q119971",
     "wikipedia": "fr:Porte d'Orléans (métro de Paris)"
@@ -759,7 +754,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q450976",
     "wikipedia": "fr:Alésia (métro de Paris)"
@@ -786,7 +781,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1406323",
     "wikipedia": "fr:Mouton-Duvernet (métro de Paris)"
@@ -806,7 +801,7 @@ myData_RER={
     "ref:FR:STIF": "22151",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "limited",
     "wikidata": "Q1187054",
     "wikipedia": "fr:Denfert-Rochereau (métro de Paris)"
@@ -834,7 +829,7 @@ myData_RER={
     "source:heritage": "data.gouv.fr:Ministère de la Culture - 08/2011",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1578058",
     "wikipedia": "fr:Raspail (métro de Paris)"
@@ -854,7 +849,7 @@ myData_RER={
     "ref:FR:STIF": "22160",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1999538",
     "wikipedia": "fr:Saint-Jacques (métro de Paris)"
@@ -874,7 +869,7 @@ myData_RER={
     "ref:FR:STIF": "22173",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1529016",
     "wikipedia": "fr:Glacière (métro de Paris)"
@@ -898,7 +893,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q950314",
     "wikipedia": "fr:Corvisart (métro de Paris)"
@@ -921,7 +916,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "uic_ref": "8705548",
     "wheelchair": "no",
     "wikidata": "Q1537246",
@@ -942,7 +937,7 @@ myData_RER={
     "ref:FR:STIF": "22169",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q661846",
     "wikipedia": "fr:Nationale (métro de Paris)"
@@ -962,7 +957,7 @@ myData_RER={
     "ref:FR:STIF": "22174",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q937680",
     "wikipedia": "fr:Chevaleret (métro de Paris)"
@@ -982,7 +977,7 @@ myData_RER={
     "ref:FR:STIF": "22161",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1969659",
     "wikipedia": "fr:Quai de la Gare (métro de Paris)"
@@ -1005,7 +1000,7 @@ myData_RER={
     "ref:FR:STIF": "22107",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1418821",
     "wikipedia": "fr:Stalingrad (métro de Paris)"
@@ -1026,7 +1021,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "start_date": "1994-08-28",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8733448",
     "wheelchair": "yes",
@@ -1044,7 +1039,7 @@ myData_RER={
     "name": "Roissy-en-Brie",
     "railway": "stop",
     "ref:FR:RATP": "58000",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711603",
     "usage": "main",
     "wikidata": "Q3097436",
@@ -1063,7 +1058,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "57999",
     "ref:FR:uic8": "87116046",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711604",
     "usage": "main",
     "wheelchair": "no",
@@ -1082,7 +1077,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "57998",
     "ref:FR:uic8": "87113803",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711380",
     "usage": "main",
     "wikidata": "Q2607914",
@@ -1101,7 +1096,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "51934",
     "ref:FR:uic8": "87113779",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711377",
     "usage": "main",
     "wikidata": "Q2318807",
@@ -1118,7 +1113,7 @@ myData_RER={
     "name": "Noisy-le-Grand — Mont d’Est",
     "railway": "station",
     "ref:FR:RATP": "1766",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775833",
     "wheelchair": "yes",
     "wikidata": "Q1841795",
@@ -1143,7 +1138,7 @@ myData_RER={
     "ref:FR:RATP": "1830",
     "ref:FR:uic8": "87754994",
     "start_date": "1992-04-01",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775499",
     "wheelchair": "yes",
     "wikidata": "Q801167",
@@ -1165,7 +1160,7 @@ myData_RER={
     "ref:FR:STIF": "22073",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1418711",
     "wikipedia": "fr:Nation (métro de Paris)"
@@ -1189,7 +1184,7 @@ myData_RER={
     "station": "subway",
     "subway": "yes",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q585752",
     "wikipedia": "fr:Château de Vincennes (métro de Paris)"
@@ -1210,7 +1205,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1019487",
     "wikipedia": "fr:Bérault (métro de Paris)"
@@ -1233,7 +1228,7 @@ myData_RER={
     "ref:FR:STIF": "412810",
     "source": "STIF - 12/2016",
     "start_date": "1969-12-14",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775812",
     "wheelchair": "limited",
     "wikidata": "Q1923411",
@@ -1255,7 +1250,7 @@ myData_RER={
     "ref:FR:RATP": "2013",
     "start_date": "1874-07-09",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775820",
     "wikidata": "Q1927835",
     "wikipedia": "fr:Gare de Boissy-Saint-Léger"
@@ -1275,7 +1270,7 @@ myData_RER={
     "ref:FR:RATP": "51932",
     "ref:FR:uic8": "87113704",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711370",
     "usage": "main"
   }
@@ -1293,7 +1288,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "51931",
     "ref:FR:uic8": "87113696",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711369",
     "usage": "main",
     "wikipedia": "fr:Gare de Rosny - Bois-Perrier"
@@ -1315,7 +1310,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1018164",
     "wikipedia": "fr:Buttes Chaumont (métro de Paris)"
@@ -1337,7 +1332,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q891362",
     "wikipedia": "fr:Bolivar (métro de Paris)"
   }
@@ -1356,7 +1351,7 @@ myData_RER={
     "ref:FR:STIF": "25084",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1018331",
     "wikipedia": "fr:Buzenval (métro de Paris)"
@@ -1379,7 +1374,7 @@ myData_RER={
     "ref:FR:STIF": "22103",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1784678",
     "wikipedia": "fr:Saint-Mandé (métro de Paris)"
@@ -1401,7 +1396,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q119911",
     "wikipedia": "fr:Ménilmontant (métro de Paris)"
@@ -1424,7 +1419,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q176582",
     "wikipedia": "fr:Père Lachaise (métro de Paris)"
   }
@@ -1445,7 +1440,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1785459",
     "wikipedia": "fr:Philippe Auguste (métro de Paris)"
@@ -1468,7 +1463,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1577219",
     "wikipedia": "fr:Alexandre Dumas (métro de Paris)"
@@ -1491,7 +1486,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q815946",
     "wikipedia": "fr:Belleville (métro de Paris)"
@@ -1513,7 +1508,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1137705",
     "wikipedia": "fr:Couronnes (métro de Paris)"
@@ -1536,7 +1531,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1110656",
     "wikipedia": "fr:Colonel Fabien (métro de Paris)"
@@ -1558,7 +1553,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q881406",
     "wikipedia": "fr:Blanche (métro de Paris)"
@@ -1581,7 +1576,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q610012",
     "wikipedia": "fr:Place de Clichy (métro de Paris)"
@@ -1604,7 +1599,7 @@ myData_RER={
     "station": "subway",
     "subway": "yes",
     "survey:date": "2017-09-20",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q567806",
     "wikipedia": "fr:Rome (métro de Paris)"
@@ -1627,7 +1622,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1511335",
     "wikipedia": "fr:Villiers (métro de Paris)"
@@ -1648,7 +1643,7 @@ myData_RER={
     "ref:FR:STIF": "22117",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1717241",
     "wikipedia": "fr:Monceau (métro de Paris)"
@@ -1669,7 +1664,7 @@ myData_RER={
     "ref:FR:FANTOIR": "75116S436P",
     "ref:FR:RATP": "1714",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1459245",
     "wikipedia": "fr:Porte Dauphine (métro de Paris)"
@@ -1692,7 +1687,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1315757",
     "wikipedia": "fr:Rue Saint-Maur (métro de Paris)"
@@ -1715,7 +1710,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1970334",
     "wikipedia": "fr:Parmentier (métro de Paris)"
@@ -1738,7 +1733,7 @@ myData_RER={
     "ref:FR:STIF": "22026",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1660212",
     "wikipedia": "fr:Temple (métro de Paris)"
@@ -1760,7 +1755,7 @@ myData_RER={
     "ref:FR:STIF": "21994",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q713944",
     "wikipedia": "fr:Arts et Métiers (métro de Paris)"
@@ -1782,7 +1777,7 @@ myData_RER={
     "ref:FR:STIF": "22033",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q895259",
     "wikipedia": "fr:Bourse (métro de Paris)"
@@ -1805,7 +1800,7 @@ myData_RER={
     "ref:FR:STIF": "22024",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q945229",
     "wikipedia": "fr:Quatre-Septembre (métro de Paris)"
@@ -1826,7 +1821,7 @@ myData_RER={
     "ref:FR:STIF": "22030",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1392037",
     "wikipedia": "fr:Opéra (métro de Paris)"
@@ -1847,7 +1842,7 @@ myData_RER={
     "ref:FR:FANTOIR": "75109S223G",
     "ref:FR:RATP": "1852",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1511406",
     "wikipedia": "fr:Havre - Caumartin (métro de Paris)"
@@ -1873,7 +1868,7 @@ myData_RER={
     "start_date": "2003-12-16",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1519529",
     "wikipedia": "fr:Saint-Lazare (métro de Paris)"
@@ -1896,7 +1891,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1784153",
     "wikipedia": "fr:Malesherbes (métro de Paris)"
@@ -1923,7 +1918,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "source:heritage": "data.gouv.fr:Ministère de la Culture - 08/2011",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q944564",
     "wikipedia": "fr:Wagram (métro de Paris)"
@@ -1944,7 +1939,7 @@ myData_RER={
     "ref:FR:RATP": "1740",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q670081",
     "wikipedia": "fr:Pereire (métro de Paris)"
@@ -1966,7 +1961,7 @@ myData_RER={
     "ref:FR:STIF": "411230",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q167371",
     "wikipedia": "fr:Porte de Champerret (métro de Paris)"
@@ -1989,7 +1984,7 @@ myData_RER={
     "ref:FR:STIF": "22047",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q769848",
     "wikipedia": "fr:Vaugirard (métro de Paris)"
@@ -2010,7 +2005,7 @@ myData_RER={
     "ref:FR:STIF": "22048",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q238902",
     "wikipedia": "fr:Volontaires (métro de Paris)"
@@ -2032,7 +2027,7 @@ myData_RER={
     "ref:FR:STIF": "22056",
     "source": "SNCF - 06/2013",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q568013",
     "wikipedia": "fr:Falguière (métro de Paris)"
@@ -2054,7 +2049,7 @@ myData_RER={
     "ref:FR:STIF": "22229",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1267446",
     "wikipedia": "fr:Duroc (métro de Paris)"
@@ -2073,7 +2068,7 @@ myData_RER={
     "ref:FR:FANTOIR": "75107S513M",
     "ref:FR:RATP": "1685",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1392295",
     "wikipedia": "fr:Saint-François-Xavier (métro de Paris)"
@@ -2094,7 +2089,7 @@ myData_RER={
     "ref:FR:STIF": "22226",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q614636",
     "wikipedia": "fr:Varenne (métro de Paris)"
@@ -2111,7 +2106,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1637",
     "toilets:wheelchair": "no",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775837",
     "wheelchair": "yes",
     "wikidata": "Q2186119",
@@ -2132,7 +2127,7 @@ myData_RER={
     "ref:FR:STIF": "22177",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q815061",
     "wikipedia": "fr:Bel-Air (métro de Paris)"
@@ -2154,7 +2149,7 @@ myData_RER={
     "ref": "RER D",
     "route_ref:FR:RER_D": "ROVO; SOVA; UOVA; LOVA; FOVA; VOVA; DOVA",
     "train": "yes",
-    "type:RATP": "rer"
+    "typeRATP": "rer"
   }
 },
 {
@@ -2173,7 +2168,7 @@ myData_RER={
     "ref:FR:uic8": "87681007",
     "route_ref:FR:RER_D": "ZOPO; ROVO; RIPE; BIPE; BIPO; ZIPE; ROPO; TIPE; RIPO; BOPO; ZIPO",
     "source": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768100",
     "wikidata": "Q2489748",
     "wikipedia": "fr:Gare de Corbeil-Essonnes"
@@ -2193,7 +2188,7 @@ myData_RER={
     "railway:ref:DB": "XFMSN",
     "ref:FR:RATP": "20980",
     "ref:FR:uic8": "87681486",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768148",
     "wikidata": "Q2148825",
     "wikipedia": "fr:Gare de Maisse"
@@ -2213,7 +2208,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "20981",
     "ref:FR:uic8": "87681510",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768151",
     "wikidata": "Q2531979",
     "wikipedia": "fr:Gare de Buno - Gironville"
@@ -2233,7 +2228,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "20977",
     "ref:FR:uic8": "87681437",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768143",
     "wikidata": "Q2317284",
     "wikipedia": "fr:Gare de Ballancourt"
@@ -2252,7 +2247,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "20975",
     "ref:FR:uic8": "87681403",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768140",
     "wikidata": "Q3097121",
     "wikipedia": "fr:Gare de Moulin-Galant"
@@ -2274,7 +2269,7 @@ myData_RER={
     "ref:FR:uic8": "87681601",
     "route_ref:FR:RER_D": "ZOPO; ZIPE; ZIPO",
     "source": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768160",
     "wikidata": "Q2182178",
     "wikipedia": "fr:Gare d'Essonnes - Robinson"
@@ -2296,7 +2291,7 @@ myData_RER={
     "ref:FR:RATP": "109711",
     "ref:FR:uic8": "87681635",
     "route_ref:FR:RER_D": "ZOPO; ZIPE; ZIPO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768163",
     "wikidata": "Q2633041",
     "wikipedia": "fr:Gare du Coudray-Montceaux"
@@ -2318,7 +2313,7 @@ myData_RER={
     "ref:FR:RATP": "109712",
     "ref:FR:uic8": "87682542",
     "route_ref:FR:RER_D": "ZOPO; ZIPE; ZIPO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768254",
     "wikidata": "Q1849897",
     "wikipedia": "fr:Gare de Saint-Fargeau"
@@ -2340,7 +2335,7 @@ myData_RER={
     "ref:FR:uic8": "87682526",
     "route_ref:FR:RER_D": "ZOPO; ZIPE; ZIPO",
     "source": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768252",
     "wikidata": "Q3097318",
     "wikipedia": "fr:Gare de Ponthierry - Pringy"
@@ -2365,7 +2360,7 @@ myData_RER={
     "ref:FR:uic8": "87682005",
     "route_ref:FR:RER_D": "ZOPO; ZUPO; ZIPE; ZIPO; ZECO",
     "source": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768200",
     "wikidata": "Q2499090",
     "wikipedia": "fr:Gare de Melun"
@@ -2388,7 +2383,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1622759",
     "wikipedia": "fr:Marx Dormoy (métro de Paris)"
@@ -2414,7 +2409,7 @@ myData_RER={
     "ref:FR:STIF": "22234",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q645691",
     "wikipedia": "fr:Gabriel Péri (métro de Paris)"
   }
@@ -2436,7 +2431,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1677923",
     "wikipedia": "fr:Jacques Bonsergent (métro de Paris)"
   }
@@ -2457,7 +2452,7 @@ myData_RER={
     "ref:FR:STIF": "41024",
     "ref:FR:uic8": "87113845",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8711384"
   }
 },
@@ -2477,7 +2472,7 @@ myData_RER={
     "ref:FR:RATP": "139444",
     "ref:FR:uic8": "87113860",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8711386",
     "wikidata": "Q3098343",
     "wikipedia": "fr:Gargan (tramway d'Île-de-France)"
@@ -2498,7 +2493,7 @@ myData_RER={
     "ref:FR:RATP": "139441",
     "ref:FR:uic8": "87113894",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8711389",
     "wikidata": "Q2402419",
     "wikipedia": "fr:Freinville - Sevran (tramway d'Île-de-France)"
@@ -2516,7 +2511,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref": "RGP",
     "tram": "yes",
-    "type:RATP": "tram"
+    "typeRATP": "tram"
   }
 },
 {
@@ -2532,7 +2527,7 @@ myData_RER={
     "ref": "AB",
     "ref:FR:RATP": "139439",
     "tram": "yes",
-    "type:RATP": "tram"
+    "typeRATP": "tram"
   }
 },
 {
@@ -2550,7 +2545,7 @@ myData_RER={
     "ref:FR:RATP": "139446",
     "ref:FR:uic8": "87113878",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8711387"
   }
 },
@@ -2569,7 +2564,7 @@ myData_RER={
     "ref:FR:STIF": "22036",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q487505",
     "wikipedia": "fr:Anatole France (métro de Paris)"
@@ -2591,7 +2586,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1140796",
     "wikipedia": "fr:Croix de Chavaux (métro de Paris)"
@@ -2612,7 +2607,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q668351",
     "wikipedia": "fr:Mairie de Montreuil (métro de Paris)"
@@ -2638,7 +2633,7 @@ myData_RER={
     "route_ref": "Métropolitain parisien ; ligne 3.",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1969462",
     "wikipedia": "fr:Pont de Levallois - Bécon (métro de Paris)"
@@ -2660,7 +2655,7 @@ myData_RER={
     "ref:FR:STIF": "22034",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1785287",
     "wikipedia": "fr:Louise Michel (métro de Paris)"
   }
@@ -2680,7 +2675,7 @@ myData_RER={
     "ref:FR:RATP": "446340",
     "source": "RATP - 07/2012",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes",
     "wikidata": "Q3065321",
     "wikipedia": "fr:Gare d'Issy - Val de Seine"
@@ -2700,7 +2695,7 @@ myData_RER={
     "ref:FR:STIF": "21936",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q631846",
     "wikipedia": "fr:Maraîchers (métro de Paris)"
@@ -2722,7 +2717,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1784141",
     "wikipedia": "fr:Robespierre (métro de Paris)"
@@ -2744,7 +2739,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1969472",
     "wikipedia": "fr:Rue des Boulets (métro de Paris)"
@@ -2765,7 +2760,7 @@ myData_RER={
     "ref:FR:STIF": "21934",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q948012",
     "wikipedia": "fr:Charonne (métro de Paris)"
@@ -2788,7 +2783,7 @@ myData_RER={
     "source": "survey 2013",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1789126",
     "wikipedia": "fr:Voltaire (métro de Paris)"
@@ -2808,7 +2803,7 @@ myData_RER={
     "ref:FR:STIF": "21910",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1450538",
     "wikipedia": "fr:Saint-Ambroise (métro de Paris)"
@@ -2830,7 +2825,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1578030",
     "wikipedia": "fr:Oberkampf (métro de Paris)"
@@ -2852,7 +2847,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q892720",
     "wikipedia": "fr:Bonne-Nouvelle (métro de Paris)"
@@ -2872,7 +2867,7 @@ myData_RER={
     "ref:FR:STIF": "21909",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1543053",
     "wikipedia": "fr:Grands Boulevards (métro de Paris)"
@@ -2898,7 +2893,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1412692",
     "wikipedia": "fr:Richelieu - Drouot (métro de Paris)"
@@ -2920,7 +2915,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q649273",
     "wikipedia": "fr:Saint-Augustin (métro de Paris)"
@@ -2942,7 +2937,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q607342",
     "wikipedia": "fr:Cardinal Lemoine (métro de Paris)"
   }
@@ -2961,7 +2956,7 @@ myData_RER={
     "ref:FR:STIF": "21975",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1789145",
     "wikipedia": "fr:Maubert - Mutualité (métro de Paris)"
@@ -2983,7 +2978,7 @@ myData_RER={
     "ref:FR:STIF": "21983",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "limited",
     "wikidata": "Q1103432",
     "wikipedia": "fr:Cluny - La Sorbonne (métro de Paris)"
@@ -3007,7 +3002,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1511318",
     "wikipedia": "fr:Odéon (métro de Paris)"
@@ -3027,7 +3022,7 @@ myData_RER={
     "ref:FR:STIF": "21973",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q974510",
     "wikipedia": "fr:Mabillon (métro de Paris)"
@@ -3047,7 +3042,7 @@ myData_RER={
     "ref:FR:STIF": "22186",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q804647",
     "wikipedia": "fr:Balard (métro de Paris)"
@@ -3069,7 +3064,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1651903",
     "wikipedia": "fr:Lourmel (métro de Paris)"
@@ -3090,7 +3085,7 @@ myData_RER={
     "ref:FR:STIF": "22188",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q894984",
     "wikipedia": "fr:Boucicaut (métro de Paris)"
@@ -3110,7 +3105,7 @@ myData_RER={
     "ref:FR:STIF": "22189",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1479476",
     "wikipedia": "fr:Félix Faure (métro de Paris)"
@@ -3131,7 +3126,7 @@ myData_RER={
     "ref:FR:STIF": "22182",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q602615",
     "wikipedia": "fr:Dugommier (métro de Paris)"
@@ -3154,7 +3149,7 @@ myData_RER={
     "ref:FR:STIF": "22181",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1172977",
     "wikipedia": "fr:Daumesnil (métro de Paris)"
@@ -3175,7 +3170,7 @@ myData_RER={
     "ref:FR:RATP": "2005",
     "ref:FR:STIF": "22178",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q818853",
     "wikipedia": "fr:Bercy (métro de Paris)"
@@ -3196,7 +3191,7 @@ myData_RER={
     "ref:FR:STIF": "22039",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1578103",
     "wikipedia": "fr:Pasteur (métro de Paris)"
@@ -3218,7 +3213,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q254308",
     "wikipedia": "fr:Kléber (métro de Paris)"
@@ -3239,7 +3234,7 @@ myData_RER={
     "ref:FR:STIF": "22180",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q891105",
     "wikipedia": "fr:Boissière (métro de Paris)"
@@ -3261,7 +3256,7 @@ myData_RER={
     "ref:FR:STIF": "22165",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1576609",
     "wikipedia": "fr:Passy (métro de Paris)"
@@ -3281,7 +3276,7 @@ myData_RER={
     "ref:FR:STIF": "21927",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1237945",
     "wikipedia": "fr:Iéna (métro de Paris)"
@@ -3302,7 +3297,7 @@ myData_RER={
     "ref:FR:STIF": "21908",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q771548",
     "wikipedia": "fr:Rue de la Pompe (métro de Paris)"
@@ -3325,7 +3320,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q168170",
     "wikipedia": "fr:La Muette (métro de Paris)"
@@ -3345,7 +3340,7 @@ myData_RER={
     "ref:FR:STIF": "21915",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1969938",
     "wikipedia": "fr:Ranelagh (métro de Paris)"
@@ -3365,7 +3360,7 @@ myData_RER={
     "ref:FR:STIF": "21928",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1683797",
     "wikipedia": "fr:Jasmin (métro de Paris)"
@@ -3385,7 +3380,7 @@ myData_RER={
     "ref:FR:STIF": "21922",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q995228",
     "wikipedia": "fr:Michel-Ange - Auteuil (métro de Paris)"
@@ -3405,7 +3400,7 @@ myData_RER={
     "ref:FR:STIF": "21923",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1228836",
     "wikipedia": "fr:Michel-Ange - Molitor (métro de Paris)"
@@ -3425,7 +3420,7 @@ myData_RER={
     "ref:FR:STIF": "21930",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q970844",
     "wikipedia": "fr:Exelmans (métro de Paris)"
@@ -3445,7 +3440,7 @@ myData_RER={
     "ref:FR:STIF": "21914",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1451224",
     "wikipedia": "fr:Porte de Saint-Cloud (métro de Paris)"
@@ -3465,7 +3460,7 @@ myData_RER={
     "ref:FR:STIF": "21935",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1768692",
     "wikipedia": "fr:Alma - Marceau (métro de Paris)"
@@ -3485,7 +3480,7 @@ myData_RER={
     "ref:FR:STIF": "21912",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1784247",
     "wikipedia": "fr:Saint-Philippe du Roule (métro de Paris)"
@@ -3507,7 +3502,7 @@ myData_RER={
     "ref:FR:STIF": "21924",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1578045",
     "wikipedia": "fr:Miromesnil (métro de Paris)"
@@ -3530,7 +3525,7 @@ myData_RER={
     "ref:FR:STIF": "21980",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1578089",
     "wikipedia": "fr:Sèvres - Babylone (métro de Paris)"
@@ -3554,7 +3549,7 @@ myData_RER={
     "ref:FR:STIF": "22238",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1885852",
     "wikipedia": "fr:Mairie de Clichy (métro de Paris)"
   }
@@ -3579,7 +3574,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "start_date": "1912-01-20",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q923435",
     "wikipedia": "fr:Brochant (métro de Paris)"
@@ -3606,7 +3601,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q780625",
     "wikipedia": "fr:La Fourche (métro de Paris)"
@@ -3626,7 +3621,7 @@ myData_RER={
     "ref:FR:STIF": "21979",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1511392",
     "wikipedia": "fr:Ségur (métro de Paris)"
@@ -3647,7 +3642,7 @@ myData_RER={
     "ref:FR:STIF": "21987",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q790593",
     "wikipedia": "fr:Avenue Émile Zola (métro de Paris)"
@@ -3668,7 +3663,7 @@ myData_RER={
     "ref:FR:STIF": "22060",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q740744",
     "wikipedia": "fr:Assemblée nationale (métro de Paris)"
@@ -3691,7 +3686,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1368640",
     "wikipedia": "fr:Solférino (métro de Paris)"
@@ -3714,7 +3709,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1969677",
     "wikipedia": "fr:Rennes (métro de Paris)"
@@ -3735,7 +3730,7 @@ myData_RER={
     "ref:FR:RATP": "1768",
     "station": "subway",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1970325",
     "wikipedia": "fr:Notre-Dame-des-Champs (métro de Paris)"
@@ -3759,7 +3754,7 @@ myData_RER={
     "ref:FR:RATP": "1885",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q970075",
     "wikipedia": "fr:Concorde (métro de Paris)"
@@ -3779,7 +3774,7 @@ myData_RER={
     "ref:FR:STIF": "22190",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q608305",
     "wikipedia": "fr:Commerce (métro de Paris)"
@@ -3801,7 +3796,7 @@ myData_RER={
     "ref:FR:STIF": "22191",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q273476",
     "wikipedia": "fr:École Militaire (métro de Paris)"
@@ -3820,7 +3815,7 @@ myData_RER={
     "ref:FR:FANTOIR": "75107S285P",
     "ref:FR:RATP": "1008;54166",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1514082",
     "wikipedia": "fr:La Tour-Maubourg (métro de Paris)"
@@ -3838,7 +3833,7 @@ myData_RER={
     "public_transport": "stop_position",
     "ref:FR:RATP": "1857",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1528456",
     "wikipedia": "fr:Invalides (métro de Paris)"
@@ -3859,7 +3854,7 @@ myData_RER={
     "ref:FR:STIF": "22200",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1414178",
     "wikipedia": "fr:Filles du Calvaire (métro de Paris)"
@@ -3883,7 +3878,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q550042",
     "wikipedia": "fr:Saint-Sébastien - Froissart (métro de Paris)"
@@ -3905,7 +3900,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "toilets:wheelchair": "no",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q524191",
     "wikipedia": "fr:Chemin Vert (métro de Paris)"
@@ -3928,7 +3923,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q680787",
     "wikipedia": "fr:Ledru-Rollin (métro de Paris)"
@@ -3949,7 +3944,7 @@ myData_RER={
     "ref:FR:STIF": "22204",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q337855",
     "wikipedia": "fr:Faidherbe - Chaligny (métro de Paris)"
@@ -3970,7 +3965,7 @@ myData_RER={
     "ref:FR:STIF": "22205",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q999159",
     "wikipedia": "fr:Montgallet (métro de Paris)"
@@ -3992,7 +3987,7 @@ myData_RER={
     "ref:FR:STIF": "22206",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q616619",
     "wikipedia": "fr:Michel Bizot (métro de Paris)"
@@ -4014,7 +4009,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1725892",
     "wikipedia": "fr:Liberté (métro de Paris)"
@@ -4036,7 +4031,7 @@ myData_RER={
     "ref:FR:STIF": "22207",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q946441",
     "wikipedia": "fr:Porte Dorée (métro de Paris)"
@@ -4061,7 +4056,7 @@ myData_RER={
     "ref:mhs": "PA00086581",
     "source": "data.gouv.fr:Ministère de la Culture - 08/2011",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q589686",
     "wikipedia": "fr:Picpus (métro de Paris)"
@@ -4082,7 +4077,7 @@ myData_RER={
     "ref:FR:STIF": "22208",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1666283",
     "wikipedia": "fr:Porte de Charenton (métro de Paris)"
@@ -4103,7 +4098,7 @@ myData_RER={
     "ref:FR:STIF": "22046",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1316395",
     "wikipedia": "fr:Trinité - d'Estienne d'Orves (métro de Paris)"
@@ -4124,7 +4119,7 @@ myData_RER={
     "ref:FR:STIF": "22050",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q575604",
     "wikipedia": "fr:Notre-Dame-de-Lorette (métro de Paris)"
@@ -4145,7 +4140,7 @@ myData_RER={
     "ref:FR:STIF": "22044",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1937499",
     "wikipedia": "fr:Saint-Georges (métro de Paris)"
@@ -4168,7 +4163,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q306256",
     "wikipedia": "fr:Abbesses (métro de Paris)"
@@ -4191,7 +4186,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q980380",
     "wikipedia": "fr:Lamarck - Caulaincourt (métro de Paris)"
@@ -4212,7 +4207,7 @@ myData_RER={
     "ref:FR:STIF": "22054",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q617430",
     "wikipedia": "fr:Jules Joffrin (métro de Paris)"
@@ -4234,7 +4229,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "limited",
     "wikidata": "Q382659",
     "wikipedia": "fr:Porte de la Chapelle (métro de Paris)"
@@ -4257,7 +4252,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q163879",
     "wikipedia": "fr:Simplon (métro de Paris)"
@@ -4284,7 +4279,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1494172",
     "wikipedia": "fr:Gare de l'Est (métro de Paris)"
   }
@@ -4306,7 +4301,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q289916",
     "wikipedia": "fr:Étienne Marcel (métro de Paris)"
@@ -4333,7 +4328,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1090753",
     "wikipedia": "fr:Château d'Eau (métro de Paris)"
@@ -4357,7 +4352,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1576810",
     "wikipedia": "fr:Les Halles (métro de Paris)"
   }
@@ -4380,7 +4375,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1094294",
     "wikipedia": "fr:Cité (métro de Paris)"
@@ -4407,7 +4402,7 @@ myData_RER={
     "source:heritage": "data.gouv.fr:Ministère de la Culture - 08/2011",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1598555",
     "wikipedia": "fr:Saint-Michel (métro de Paris)"
@@ -4429,7 +4424,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q781873",
     "wikipedia": "fr:Saint-Germain-des-Prés (métro de Paris)"
@@ -4453,7 +4448,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q763411",
     "wikipedia": "fr:Saint-Placide (métro de Paris)"
@@ -4476,7 +4471,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q954301",
     "wikipedia": "fr:Vavin (métro de Paris)"
@@ -4501,7 +4496,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "start_date": "1913-07-13",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q632881",
     "wikipedia": "fr:Charles Michels (métro de Paris)"
@@ -4522,7 +4517,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "start_date": "1913-09-30",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1511378",
     "wikipedia": "fr:Javel - André Citroën (métro de Paris)"
@@ -4544,7 +4539,7 @@ myData_RER={
     "ref:FR:STIF": "21971",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q274534",
     "wikipedia": "fr:Église d'Auteuil (métro de Paris)"
@@ -4566,7 +4561,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1578078",
     "wikipedia": "fr:Porte d'Auteuil (métro de Paris)"
@@ -4586,7 +4581,7 @@ myData_RER={
     "ref:FR:STIF": "21985",
     "source": "STIF - 02/2020",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q927829",
     "wikipedia": "fr:Chardon-Lagache (métro de Paris)"
@@ -4606,7 +4601,7 @@ myData_RER={
     "ref:FR:STIF": "21982",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q517739",
     "wikipedia": "fr:Mirabeau (métro de Paris)"
@@ -4625,7 +4620,7 @@ myData_RER={
     "ref:FR:STIF": "21988",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q426440",
     "wikipedia": "fr:Boulogne - Jean Jaurès (métro de Paris)"
@@ -4647,7 +4642,7 @@ myData_RER={
     "ref:FR:STIF": "21989",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q895108",
     "wikipedia": "fr:Boulogne - Pont de Saint-Cloud (métro de Paris)"
@@ -4670,7 +4665,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1536969",
     "wikipedia": "fr:Goncourt (métro de Paris)"
@@ -4692,7 +4687,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q646376",
     "wikipedia": "fr:Rambuteau (métro de Paris)"
@@ -4709,7 +4704,7 @@ myData_RER={
     "public_transport": "stop_position",
     "ref:FR:RATP": "1736",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q606164"
   }
 },
@@ -4729,7 +4724,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1263417",
     "wikipedia": "fr:Télégraphe (métro de Paris)"
@@ -4751,7 +4746,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1969303",
     "wikipedia": "fr:Pyrénées (métro de Paris)"
@@ -4774,7 +4769,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1517347",
     "wikipedia": "fr:Jourdain (métro de Paris)"
@@ -4797,7 +4792,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q377782",
     "wikipedia": "fr:Gaîté (métro de Paris)"
@@ -4819,7 +4814,7 @@ myData_RER={
     "ref:FR:STIF": "22223",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1344485",
     "wikipedia": "fr:Plaisance (métro de Paris)"
@@ -4842,7 +4837,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1684455",
     "wikipedia": "fr:Pernety (métro de Paris)"
@@ -4864,7 +4859,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1886721",
     "wikipedia": "fr:Malakoff - Plateau de Vanves (métro de Paris)"
@@ -4886,7 +4881,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q777553",
     "wikipedia": "fr:Bréguet - Sabin (métro de Paris)"
@@ -4906,7 +4901,7 @@ myData_RER={
     "ref:FR:STIF": "22002",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1789070",
     "wikipedia": "fr:Richard-Lenoir (métro de Paris)"
@@ -4928,7 +4923,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1772478",
     "wikipedia": "fr:Riquet (métro de Paris)"
@@ -4950,7 +4945,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q746288",
     "wikipedia": "fr:Crimée (métro de Paris)"
@@ -4973,7 +4968,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q120303",
     "wikipedia": "fr:Corentin Cariou (métro de Paris)"
@@ -4996,7 +4991,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q571446",
     "wikipedia": "fr:Porte de la Villette (métro de Paris)"
   }
@@ -5017,7 +5012,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1784008",
     "wikipedia": "fr:Le Peletier (métro de Paris)"
   }
@@ -5036,7 +5031,7 @@ myData_RER={
     "ref:FR:RATP": "1939",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1025135",
     "wikipedia": "fr:Cadet (métro de Paris)"
@@ -5063,7 +5058,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1458421",
     "wikipedia": "fr:Pont Neuf (métro de Paris)"
@@ -5087,7 +5082,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q257465",
     "wikipedia": "fr:Sully - Morland (métro de Paris)"
@@ -5109,7 +5104,7 @@ myData_RER={
     "ref:FR:RATP": "1711",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q282600",
     "wikipedia": "fr:Pont Marie (métro de Paris)"
@@ -5133,7 +5128,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q177476",
     "wikipedia": "fr:Place Monge (métro de Paris)"
@@ -5156,7 +5151,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q938430",
     "wikipedia": "fr:Censier - Daubenton (métro de Paris)"
@@ -5179,7 +5174,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1783617",
     "wikipedia": "fr:Les Gobelins (métro de Paris)"
@@ -5201,7 +5196,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q751245",
     "wikipedia": "fr:Pré Saint-Gervais (métro de Paris)"
   }
@@ -5222,7 +5217,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1165108",
     "wikipedia": "fr:Danube (métro de Paris)"
@@ -5243,7 +5238,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q683544",
     "wikipedia": "fr:Mairie des Lilas (métro de Paris)"
@@ -5265,7 +5260,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1576198",
     "wikipedia": "fr:Saint-Fargeau (métro de Paris)"
@@ -5287,7 +5282,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1576190",
     "wikipedia": "fr:Pelleport (métro de Paris)"
@@ -5307,7 +5302,7 @@ myData_RER={
     "ref:FR:STIF": "22000",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q587093",
     "wikipedia": "fr:Saint-Marcel (métro de Paris)"
@@ -5327,7 +5322,7 @@ myData_RER={
     "ref:FR:STIF": "22009",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q683208",
     "wikipedia": "fr:Campo-Formio (métro de Paris)"
@@ -5349,7 +5344,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "toilets:wheelchair": "no",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q738879",
     "wikipedia": "fr:Guy Môquet (métro de Paris)"
@@ -5369,7 +5364,7 @@ myData_RER={
     "ref:FR:STIF": "22220",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q181669",
     "wikipedia": "fr:Porte de Saint-Ouen (métro de Paris)"
   }
@@ -5387,7 +5382,7 @@ myData_RER={
     "ref:FR:STIF": "22244",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q586851",
     "wikipedia": "fr:Garibaldi (métro de Paris)"
@@ -5408,7 +5403,7 @@ myData_RER={
     "ref:FR:RATP": "5580",
     "ref:FR:uic8": "87271247",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "uic_ref": "8727124",
     "wheelchair": "yes",
     "wikidata": "Q2979015",
@@ -5425,7 +5420,7 @@ myData_RER={
     "public_transport": "stop_position",
     "railway": "stop",
     "train": "yes",
-    "type:RATP": "rer"
+    "typeRATP": "rer"
   }
 },
 {
@@ -5437,7 +5432,7 @@ myData_RER={
     "name": "Avenue Foch",
     "public_transport": "stop_position",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738103"
   }
 },
@@ -5458,7 +5453,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1576648",
     "wikipedia": "fr:Tolbiac (métro de Paris)"
@@ -5482,7 +5477,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1576642",
     "wikipedia": "fr:Maison Blanche (métro de Paris)"
@@ -5506,7 +5501,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1783630",
     "wikipedia": "fr:Porte d'Italie (métro de Paris)"
@@ -5527,7 +5522,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q962861",
     "wikipedia": "fr:Les Agnettes (métro de Paris)"
@@ -5550,7 +5545,7 @@ myData_RER={
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739304",
     "wheelchair": "yes",
     "wikidata": "Q1858826",
@@ -5576,7 +5571,7 @@ myData_RER={
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754731;8778543",
     "wheelchair": "yes",
     "wikidata": "Q801394",
@@ -5597,7 +5592,7 @@ myData_RER={
     "ref:FR:STIF": "22393",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1438901",
     "wikipedia": "fr:Fort d'Aubervilliers (métro de Paris)"
   }
@@ -5618,7 +5613,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q758464",
     "wikipedia": "fr:Aubervilliers - Pantin - Quatre Chemins (métro de Paris)"
   }
@@ -5638,7 +5633,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1320288",
     "wikipedia": "fr:La Courneuve - 8 Mai 1945 (métro de Paris)"
   }
@@ -5658,7 +5653,7 @@ myData_RER={
     "ref:FR:RATP": "15518",
     "ref:SNCF:Transilien": "L",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_name": "cergy-prefecture",
     "uic_ref": "8738190",
@@ -5689,7 +5684,7 @@ myData_RER={
     "ref:FR:uic8": "87276196",
     "route_ref:FR:RER_D": "SOVA;FUCA;VIPE;LOVA;VUCA;FOVA;LUCA;VOVA;SUCA;VOPA;FOPA;LOPA",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727619",
     "wheelchair": "yes",
     "wikidata": "Q2003691",
@@ -5712,7 +5707,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1061527",
     "wikipedia": "fr:Champs-Élysées - Clemenceau (métro de Paris)"
@@ -5734,7 +5729,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "start_date": "1837-08-26",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775808",
     "wheelchair": "yes",
     "wikidata": "Q2334089",
@@ -5754,7 +5749,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "20973",
     "ref:FR:uic8": "87681395",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768139",
     "wikidata": "Q3098180",
     "wikipedia": "fr:Gare du Bras de Fer - Évry - Génopole"
@@ -5777,7 +5772,7 @@ myData_RER={
     "ref:FR:RATP": "20972",
     "ref:FR:uic8": "87681387",
     "source": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768138",
     "wikidata": "Q2144093"
   }
@@ -5797,7 +5792,7 @@ myData_RER={
     "ref:FR:RATP": "20971",
     "source": "survey",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768134",
     "wheelchair": "yes",
     "wikidata": "Q2041479",
@@ -5818,7 +5813,7 @@ myData_RER={
     "ref:FR:STIF": "41351",
     "ref:FR:uic8": "87681452",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768145",
     "wikidata": "Q2325002",
     "wikipedia": "fr:Gare de La Ferté-Alais"
@@ -5835,7 +5830,7 @@ myData_RER={
     "name": "Noisiel",
     "railway": "station",
     "ref:FR:RATP": "1764",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775835",
     "wheelchair": "yes",
     "wikidata": "Q2179716",
@@ -5855,7 +5850,7 @@ myData_RER={
     "operator": "RATP",
     "railway": "station",
     "ref:FR:RATP": "1805",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775836",
     "wheelchair": "yes",
     "wikidata": "Q1861503",
@@ -5878,7 +5873,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1142525",
     "wikipedia": "fr:Créteil - L'Échat (métro de Paris)"
   }
@@ -5896,7 +5891,7 @@ myData_RER={
     "ref:FR:STIF": "22212",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q592367",
     "wikipedia": "fr:Créteil - Université (métro de Paris)"
   }
@@ -5914,7 +5909,7 @@ myData_RER={
     "ref:FR:STIF": "22216",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q766906",
     "wikipedia": "fr:Maisons-Alfort - Les Juilliottes (métro de Paris)"
@@ -5935,7 +5930,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1405224",
     "wikipedia": "fr:Maisons-Alfort - Stade (métro de Paris)"
@@ -5959,7 +5954,7 @@ myData_RER={
     "station": "subway",
     "subway": "yes",
     "toilets:wheelchair": "no",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q273645",
     "wikipedia": "fr:École vétérinaire de Maisons-Alfort (métro de Paris)"
@@ -5981,7 +5976,7 @@ myData_RER={
     "station": "subway",
     "subway": "yes",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1063134",
     "wikipedia": "fr:Charenton - Écoles (métro de Paris)"
@@ -5999,7 +5994,7 @@ myData_RER={
     "ref:FR:RATP": "5579",
     "ref:FR:uic8": "87272146",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727214",
     "wikidata": "Q2089423",
     "wikipedia": "fr:Gare des Grésillons"
@@ -6017,7 +6012,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "23877",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes",
     "wikipedia": "fr:Brimborion (tramway d'Île-de-France)"
   }
@@ -6035,7 +6030,7 @@ myData_RER={
     "ref": "RER B",
     "ref:FR:RATP": "1877",
     "ref:FR:uic8": "87164798",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8716479",
     "wheelchair": "yes",
     "wikidata": "Q2260256",
@@ -6057,7 +6052,7 @@ myData_RER={
     "ref:FR:RATP": "139442",
     "ref:FR:uic8": "87113886",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8711388"
   }
 },
@@ -6079,7 +6074,7 @@ myData_RER={
     "source": "STIF - 02/2020",
     "survey:date": "2019-12-07",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8798871",
     "wikimedia_commons": "File:Station Tramway Ligne 4 Lycée Henri Sellier Livry Gargan 3.jpg"
   }
@@ -6099,7 +6094,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q476557",
     "wikipedia": "fr:Villejuif - Léo Lagrange (métro de Paris)"
@@ -6119,7 +6114,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1267664",
     "wikipedia": "fr:Villejuif - Louis Aragon (métro de Paris)"
@@ -6141,7 +6136,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q961089",
     "wikipedia": "fr:Villejuif - Paul Vaillant-Couturier (métro de Paris)"
   }
@@ -6163,7 +6158,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q930284",
     "wikipedia": "fr:Le Kremlin-Bicêtre (métro de Paris)"
   }
@@ -6180,7 +6175,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "51933",
     "ref:FR:uic8": "87113746",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711374",
     "usage": "main",
     "wikidata": "Q592514",
@@ -6201,7 +6196,7 @@ myData_RER={
     "ref:FR:RATP": "20967",
     "ref:FR:uic8": "87681379",
     "source": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768137",
     "wikidata": "Q3096584",
     "wikipedia": "fr:Gare de Grigny-Centre"
@@ -6224,7 +6219,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1783894",
     "wikipedia": "fr:Saint-Sulpice (métro de Paris)"
@@ -6246,7 +6241,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1090315",
     "wikipedia": "fr:Château-Landon (métro de Paris)"
@@ -6266,7 +6261,7 @@ myData_RER={
     "ref:FR:STIF": "412817",
     "route_ref": "RER B",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775861",
     "wheelchair": "yes",
     "wikidata": "Q1772325",
@@ -6285,7 +6280,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1991",
     "ref:FR:uic8": "87271304",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727130",
     "wikidata": "Q2875299",
     "wikipedia": "fr:Gare de La Courneuve - Aubervilliers"
@@ -6306,7 +6301,7 @@ myData_RER={
     "ref:FR:RATP": "51923",
     "ref:FR:uic8": "87281873",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8728187",
     "wheelchair": "limited",
     "wikidata": "Q608428",
@@ -6326,7 +6321,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "51924",
     "ref:FR:uic8": "87113209",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711320",
     "usage": "main",
     "wheelchair": "no",
@@ -6348,7 +6343,7 @@ myData_RER={
     "railway": "stop",
     "ref:FR:RATP": "1748",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727152",
     "wikidata": "Q2285712",
     "wikipedia": "fr:Gare de Mitry - Claye"
@@ -6372,7 +6367,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1866688",
     "wikipedia": "fr:Liège (métro de Paris)"
@@ -6390,7 +6385,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1905",
     "ref:FR:uic8": "87271403",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727140",
     "wheelchair": "limited",
     "wikidata": "Q2380502",
@@ -6412,7 +6407,7 @@ myData_RER={
     "ref:FR:RATP": "5567",
     "ref:FR:uic8": "87276261",
     "route_ref:FR:RER_D": "LOVA; LUCA; SUCA; LOPA; SOVA",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727626",
     "wikidata": "Q3097800",
     "wikipedia": "fr:Gare de Survilliers - Fosses"
@@ -6436,7 +6431,7 @@ myData_RER={
     "route_ref": "TER Picardie; RER D",
     "route_ref:FR:RER_D": "SOVA; SUCA",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727611",
     "wikidata": "Q800617",
     "wikipedia": "fr:Gare de Chantilly - Gouvieux"
@@ -6455,7 +6450,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "8338",
     "route_ref:FR:RER_D": "LOVA; LUCA; SUCA; LOPA; SOVA",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727627",
     "wikidata": "Q2580779",
     "wikipedia": "fr:Gare d'Orry-la-Ville - Coye"
@@ -6477,7 +6472,7 @@ myData_RER={
     "ref:FR:STIF": "411417",
     "route_ref:FR:RER_D": "LOVA; LUCA; SUCA; LOPA; SOVA",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727628",
     "wikidata": "Q3096762",
     "wikipedia": "fr:Gare de La Borne Blanche"
@@ -6495,7 +6490,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "58002",
     "ref:FR:uic8": "87116012",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711601",
     "wikidata": "Q2188934",
     "wikipedia": "fr:Gare de Gretz-Armainvilliers"
@@ -6514,7 +6509,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "2008",
     "ref:FR:uic8": "87271478",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727147",
     "wikidata": "Q3098177",
     "wikipedia": "fr:Gare du Blanc-Mesnil"
@@ -6530,7 +6525,7 @@ myData_RER={
     "name": "Parc des Expositions",
     "railway": "stop",
     "ref:FR:RATP": "1777",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727148",
     "wheelchair": "yes",
     "wikidata": "Q2048659",
@@ -6553,7 +6548,7 @@ myData_RER={
     "ref:FR:STIF": "22179",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1783899",
     "wikipedia": "fr:Bir-Hakeim (métro de Paris)"
@@ -6572,7 +6567,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "20979",
     "ref:FR:uic8": "87681478",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768147",
     "wikidata": "Q3096048",
     "wikipedia": "fr:Gare de Boutigny"
@@ -6595,7 +6590,7 @@ myData_RER={
     "ref:FR:STIF": "412806",
     "source": "STIF - 12/2016",
     "start_date": "1971-11-23",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775859",
     "wheelchair": "yes",
     "wikidata": "Q800416",
@@ -6618,7 +6613,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q761518",
     "wikipedia": "fr:Billancourt (métro de Paris)"
   }
@@ -6639,7 +6634,7 @@ myData_RER={
     "ref:FR:RATP": "20965",
     "route_ref:FR:RER_D": "ROVO; SOVA; UOVA; LOVA; FOVA; VOVA; DOVA",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768135"
   }
 },
@@ -6656,7 +6651,7 @@ myData_RER={
     "ref:FR:RATP": "5573",
     "ref:FR:uic8": "87276071",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727607",
     "wikidata": "Q3096481",
     "wikipedia": "fr:Gare de Franconville - Le Plessis-Bouchard"
@@ -6678,7 +6673,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1969904",
     "wikipedia": "fr:Pont de Sèvres (métro de Paris)"
@@ -6698,7 +6693,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "20976",
     "ref:FR:uic8": "87681411",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768141",
     "wikidata": "Q2176143",
     "wikipedia": "fr:Gare de Mennecy"
@@ -6720,7 +6715,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1755",
     "start_date": "1973-10-01",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775802",
     "wheelchair": "yes",
     "wikidata": "Q2556326",
@@ -6743,7 +6738,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q953454",
     "wikipedia": "fr:Porte de Choisy (métro de Paris)"
@@ -6763,7 +6758,7 @@ myData_RER={
     "ref:FR:STIF": "22397",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1784003",
     "wikipedia": "fr:Pierre et Marie Curie (métro de Paris)"
@@ -6783,7 +6778,7 @@ myData_RER={
     "ref:FR:STIF": "21977",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1511414",
     "wikipedia": "fr:Vaneau (métro de Paris)"
@@ -6805,7 +6800,7 @@ myData_RER={
     "ref:FR:RATP": "20990",
     "ref:FR:uic8": "87682187",
     "route_ref:FR:RER_D": "ZUCO; ZECO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768218",
     "wikidata": "Q2424302",
     "wikipedia": "fr:Gare de Savigny-le-Temple - Nandy"
@@ -6825,7 +6820,7 @@ myData_RER={
     "railway:traffic_mode": "passenger",
     "ref:FR:RATP": "20989",
     "route_ref:FR:RER_D": "ZUCO;ZECO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768215",
     "wikidata": "Q2588017",
     "wikipedia": "fr:Gare de Lieusaint - Moissy"
@@ -6846,7 +6841,7 @@ myData_RER={
     "ref:FR:RATP": "20987",
     "ref:FR:uic8": "87682138",
     "route_ref:FR:RER_D": "ZUCO;NUCO;ZECO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768213",
     "wikidata": "Q2576523",
     "wikipedia": "fr:Gare de Boussy-Saint-Antoine"
@@ -6868,7 +6863,7 @@ myData_RER={
     "ref:FR:RATP": "20988",
     "ref:FR:uic8": "87682146",
     "route_ref:FR:RER_D": "ZUCO; NUCO; ZECO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768214",
     "wheelchair": "yes",
     "wikidata": "Q2348110",
@@ -6889,7 +6884,7 @@ myData_RER={
     "railway:traffic_mode": "passenger",
     "ref:FR:RATP": "20958",
     "ref:FR:uic8": "87681304",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768130",
     "wikidata": "Q2703407",
     "wikipedia": "fr:Gare de Vigneux-sur-Seine"
@@ -6907,7 +6902,7 @@ myData_RER={
     "public_transport": "stop_position",
     "railway": "tram_stop",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -6926,7 +6921,7 @@ myData_RER={
     "ref": "BDY1",
     "ref:FR:RATP": "139449",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -6945,7 +6940,7 @@ myData_RER={
     "ref:FR:uic8": "87681619",
     "route_ref:FR:RER_D": "ZOPO; ZIPE; ZIPO",
     "source": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768161",
     "wikidata": "Q2048752",
     "wikipedia": "fr:Gare de Villabé"
@@ -6967,7 +6962,7 @@ myData_RER={
     "ref:FR:RATP": "20986",
     "ref:FR:uic8": "87682120",
     "route_ref:FR:RER_D": "ZUCO;NUCO;ZECO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768212",
     "wheelchair": "limited",
     "wikidata": "Q2796693",
@@ -6985,7 +6980,7 @@ myData_RER={
     "public_transport": "stop_position",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1519529",
     "wikipedia": "fr:Saint-Lazare (métro de Paris)"
@@ -7002,7 +6997,7 @@ myData_RER={
     "public_transport": "stop_position",
     "railway": "stop",
     "subway": "yes",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -7022,7 +7017,7 @@ myData_RER={
     "ref:FR:uic8": "87681627",
     "route_ref:FR:RER_D": "ZOPO; ZIPE; ZIPO",
     "source": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768162",
     "wikidata": "Q2353069",
     "wikipedia": "fr:Gare du Plessis-Chenet"
@@ -7044,7 +7039,7 @@ myData_RER={
     "ref:FR:STIF": "411484",
     "ref:FR:uic8": "87684415",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768441",
     "wikidata": "Q2615431",
     "wikipedia": "fr:Gare de Malesherbes"
@@ -7065,7 +7060,7 @@ myData_RER={
     "route_ref": "T3a",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes",
     "wikidata": "Q28729703"
   }
@@ -7085,7 +7080,7 @@ myData_RER={
     "route_ref": "T3a",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes",
     "wikidata": "Q28729703"
   }
@@ -7108,7 +7103,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "source": "knowledge;survey",
     "source:ref": "RATP - 07/2012",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775803; 8738631",
     "wheelchair": "no",
     "wikidata": "Q2414148",
@@ -7131,7 +7126,7 @@ myData_RER={
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q635744",
     "wikipedia": "fr:Ternes (métro de Paris)"
@@ -7154,7 +7149,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "tactile_paving": "yes",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_name": "nanterre-universite",
     "uic_ref": "8775803; 8738631",
     "wheelchair": "no",
@@ -7179,7 +7174,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "tactile_paving": "yes",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_name": "nanterre-universite",
     "uic_ref": "8775803; 8738631",
     "wheelchair": "no",
@@ -7201,7 +7196,7 @@ myData_RER={
     "ref:FR:RATP": "397629",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q935233",
     "wikipedia": "fr:Pointe du Lac (métro de Paris)"
   }
@@ -7219,7 +7214,7 @@ myData_RER={
     "ref:FR:RATP": "1668",
     "toilets:wheelchair": "no",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775872",
     "wheelchair": "yes",
     "wikidata": "Q2326583",
@@ -7241,7 +7236,7 @@ myData_RER={
     "ref:FR:RATP": "2020",
     "ref:FR:STIF": "412842",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775869",
     "wheelchair": "yes",
     "wikidata": "Q1962846",
@@ -7258,7 +7253,7 @@ myData_RER={
     "name": "Val d'Europe",
     "railway": "station",
     "ref:FR:RATP": "53960",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8773006",
     "wheelchair": "yes",
     "wikidata": "Q2488410",
@@ -7274,7 +7269,7 @@ myData_RER={
     "name": "Issy",
     "public_transport": "stop_position",
     "train": "yes",
-    "type:RATP": "rer"
+    "typeRATP": "rer"
   }
 },
 {
@@ -7290,7 +7285,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "57288",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes",
     "wikidata": "Q3065321",
     "wikipedia": "fr:Gare d'Issy - Val de Seine"
@@ -7309,7 +7304,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "57356",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -7333,7 +7328,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "source:heritage": "data.gouv.fr:Ministère de la Culture - 08/2011",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q517844",
     "wikipedia": "fr:Avron (métro de Paris)"
@@ -7358,7 +7353,7 @@ myData_RER={
     "ref:FR:uic8": "87381020",
     "signage": "good",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738102",
     "wheelchair": "yes",
     "wikidata": "Q384902",
@@ -7381,7 +7376,7 @@ myData_RER={
     "route_ref:FR:RER_D": "SOVA;FUCA;UOVA;VIPE;LOVA;VUCA;FOVA;LUCA;VOVA;MIPE;UUCA;SUCA;VOPA;MOPA;MIPA;FOPA;LOPA",
     "start_date": "1995-09-24",
     "station": "train",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768603",
     "wheelchair": "no"
   }
@@ -7401,7 +7396,7 @@ myData_RER={
     "short_name": "Gare de Lyon RER",
     "start_date": "1977-12-09",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775858",
     "wheelchair": "yes",
     "wikidata": "Q747541",
@@ -7418,7 +7413,7 @@ myData_RER={
     "name": "Gentilly",
     "railway": "station",
     "ref:FR:RATP": "1845",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775865",
     "wheelchair": "yes",
     "wikidata": "Q3096532",
@@ -7443,7 +7438,7 @@ myData_RER={
     "ref:FR:STIF": "412716",
     "source": "STIF - 12/2016",
     "start_date": "1859-09-22",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775813",
     "wheelchair": "yes",
     "wikidata": "Q2329670",
@@ -7462,7 +7457,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "302757",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -7480,7 +7475,7 @@ myData_RER={
     "ref:FR:RATP": "446341;57291",
     "source": "RATP - 07/2012",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -7496,7 +7491,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "57295",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -7517,7 +7512,7 @@ myData_RER={
     "short_name": "Achères",
     "start_date": "1976-05",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_name": "acheres-ville",
     "uic_ref": "8738165",
@@ -7542,7 +7537,7 @@ myData_RER={
     "short_name": "Achères",
     "start_date": "1976-05",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_name": "acheres-ville",
     "uic_ref": "8738165",
@@ -7566,7 +7561,7 @@ myData_RER={
     "ref:FR:RATP": "15519",
     "start_date": "1984",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738145",
     "wheelchair": "yes",
     "wikidata": "Q2532157",
@@ -7588,7 +7583,7 @@ myData_RER={
     "ref:FR:RATP": "15519",
     "start_date": "1984",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738145",
     "wheelchair": "yes",
     "wikidata": "Q2532157",
@@ -7611,7 +7606,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "start_date": "1994-08-28",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8733448",
     "wheelchair": "yes",
@@ -7634,7 +7629,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "start_date": "1994-08-29",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8738265",
     "wheelchair": "yes",
@@ -7657,7 +7652,7 @@ myData_RER={
     "ref:FR:STIF": "22127",
     "source": "STIF - 12/2016",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q807893",
     "wikipedia": "fr:Barbès - Rochechouart (métro de Paris)"
@@ -7679,7 +7674,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1892927",
     "wikipedia": "fr:Marcadet - Poissonniers (métro de Paris)"
@@ -7703,7 +7698,7 @@ myData_RER={
     "ref:FR:RATP": "1885",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q970075",
     "wikipedia": "fr:Concorde (métro de Paris)"
@@ -7720,7 +7715,7 @@ myData_RER={
     "public_transport": "stop_position",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1528456",
     "wikipedia": "fr:Invalides (métro de Paris)"
@@ -7738,7 +7733,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "57293",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -7754,7 +7749,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "57292",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -7770,7 +7765,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "23879",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes",
     "wikipedia": "fr:Les Moulineaux (tramway d'Île-de-France)"
   }
@@ -7787,7 +7782,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "23870",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -7803,7 +7798,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "57294",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -7825,7 +7820,7 @@ myData_RER={
     "ref:FR:RATP": "54087",
     "ref:FR:uic8": "87276105",
     "tracks": "3",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727610",
     "wheelchair": "yes",
     "wikidata": "Q2785995",
@@ -7845,7 +7840,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5610",
     "ref:FR:uic8": "87545285",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754528",
     "wikidata": "Q2438332",
     "wikipedia": "fr:Gare de Choisy-le-Roi"
@@ -7863,7 +7858,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref": "RGP",
     "tram": "yes",
-    "type:RATP": "tram"
+    "typeRATP": "tram"
   }
 },
 {
@@ -7881,7 +7876,7 @@ myData_RER={
     "ref:FR:RATP": "139442",
     "ref:FR:uic8": "87113886",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8711388"
   }
 },
@@ -7900,7 +7895,7 @@ myData_RER={
     "ref:FR:RATP": "139441",
     "ref:FR:uic8": "87113894",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8711389",
     "wikidata": "Q2402419",
     "wikipedia": "fr:Freinville - Sevran (tramway d'Île-de-France)"
@@ -7924,7 +7919,7 @@ myData_RER={
     "source": "STIF - 02/2020",
     "survey:date": "2019-12-07",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8798871",
     "wikimedia_commons": "File:Station Tramway Ligne 4 Lycée Henri Sellier Livry Gargan 3.jpg"
   }
@@ -7941,7 +7936,7 @@ myData_RER={
     "name": "Gare de Lyon",
     "public_transport": "stop_position",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes"
   }
 },
@@ -7960,7 +7955,7 @@ myData_RER={
     "ref:FR:STIF": "22163",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1969443",
     "wikipedia": "fr:Sèvres - Lecourbe (métro de Paris)"
@@ -7981,7 +7976,7 @@ myData_RER={
     "ref:FR:STIF": "412811",
     "source": "survey",
     "start_date": "1859-09-22",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775811",
     "wheelchair": "yes",
     "wikidata": "Q2562042",
@@ -8005,7 +8000,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "start_date": "1970-01-19",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775800",
     "wheelchair": "limited",
     "wikidata": "Q800624",
@@ -8030,7 +8025,7 @@ myData_RER={
     "ref:FR:STIF": "412808",
     "source": "STIF - 12/2016;https://50ans.apur.org/data/b4s3_home/fiche/102/04_place_nation_3b1ea.pdf",
     "start_date": "1969-12-14",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775810",
     "website": "https://www.ratp.fr/",
     "wheelchair": "yes",
@@ -8051,7 +8046,7 @@ myData_RER={
     "ref:FR:RATP": "5609",
     "ref:FR:uic8": "87492108",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8749210",
     "wheelchair": "no",
     "wikidata": "Q3098149",
@@ -8074,7 +8069,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -8091,7 +8086,7 @@ myData_RER={
     "ref:FR:RATP": "136248",
     "source": "survey",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes",
     "wikidata": "Q28729740"
   }
@@ -8113,7 +8108,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1969480",
     "wikipedia": "fr:Porte de Clignancourt (métro de Paris)"
@@ -8131,7 +8126,7 @@ myData_RER={
     "railway:position:exact": "14.056",
     "ref:FR:RATP": "51928",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711351",
     "wheelchair": "yes",
     "wikidata": "Q2187463"
@@ -8149,7 +8144,7 @@ myData_RER={
     "railway:position:exact": "14.056",
     "ref:FR:RATP": "51928",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711351",
     "wheelchair": "yes",
     "wikidata": "Q2187463"
@@ -8168,7 +8163,7 @@ myData_RER={
     "railway:position:exact": "14.056",
     "ref:FR:RATP": "51928",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711351",
     "wheelchair": "yes",
     "wikidata": "Q2187463",
@@ -8192,7 +8187,7 @@ myData_RER={
     "ref:FR:uic8": "87758201",
     "source": "STIF - 12/2016",
     "start_date": "1874-07-09",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775820",
     "wikidata": "Q1927835",
     "wikipedia": "fr:Gare de Boissy-Saint-Léger"
@@ -8214,7 +8209,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q764465",
     "wikipedia": "fr:Montparnasse - Bienvenüe (métro de Paris)"
@@ -8234,7 +8229,7 @@ myData_RER={
     "ref:FR:STIF": "412800",
     "source": "STIF - 12/2016",
     "start_date": "1837-08-26",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775807",
     "wheelchair": "yes",
     "wikidata": "Q2543194",
@@ -8254,7 +8249,7 @@ myData_RER={
     "ref": "AB",
     "ref:FR:RATP": "139439",
     "tram": "yes",
-    "type:RATP": "tram"
+    "typeRATP": "tram"
   }
 },
 {
@@ -8270,7 +8265,7 @@ myData_RER={
     "ref:FR:STIF": "40932",
     "source": "STIF - 12/2016",
     "start_date": "1859-09-22",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775814",
     "wheelchair": "yes",
     "wikidata": "Q2785024",
@@ -8289,7 +8284,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "51930",
     "ref:FR:uic8": "87116111",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711611",
     "wikidata": "Q2602800",
     "wikipedia": "fr:Gare de Chelles - Gournay"
@@ -8313,7 +8308,7 @@ myData_RER={
     "ref:FR:RATP": "5575",
     "ref:FR:uic8": "87276055",
     "ref:SNCF:Transilien": "J;H",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727605",
     "wheelchair": "yes",
     "wikidata": "Q2683164",
@@ -8333,7 +8328,7 @@ myData_RER={
     "public_transport": "stop_position",
     "ref:FR:RATP": "1700",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_name": "sartrouville",
     "uic_ref": "8738641",
     "wheelchair": "yes",
@@ -8358,7 +8353,7 @@ myData_RER={
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q766618"
   }
@@ -8377,7 +8372,7 @@ myData_RER={
     "ref:FR:STIF": "41024",
     "ref:FR:uic8": "87113845",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8711384"
   }
 },
@@ -8393,7 +8388,7 @@ myData_RER={
     "railway": "stop",
     "ref:FR:RATP": "1736",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q606164",
     "wikipedia": "fr:Porte des Lilas (métro de Paris)"
   }
@@ -8414,7 +8409,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q894930",
     "wikipedia": "fr:Botzaris (métro de Paris)"
@@ -8436,7 +8431,7 @@ myData_RER={
     "ref:FR:STIF": "24680",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q568195",
     "wikipedia": "fr:Jaurès (métro de Paris)"
@@ -8457,7 +8452,7 @@ myData_RER={
     "ref:FR:STIF": "22221",
     "source": "RATP - 07/2012",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1547535"
   }
@@ -8478,7 +8473,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1789135",
     "wikipedia": "fr:Place des Fêtes (métro de Paris)"
@@ -8501,7 +8496,7 @@ myData_RER={
     "start_date": "2013-03-23",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q2270685",
     "wikipedia": "fr:Mairie de Montrouge (métro de Paris)"
@@ -8524,7 +8519,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q968336",
     "wikipedia": "fr:Porte de Montreuil (métro de Paris)"
   }
@@ -8542,7 +8537,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -8560,7 +8555,7 @@ myData_RER={
     "railway": "tram_stop",
     "station": "light_rail",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -8579,7 +8574,7 @@ myData_RER={
     "ref:FR:RATP": "142785",
     "station": "light_rail",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -8600,7 +8595,7 @@ myData_RER={
     "short_name": "Achères",
     "source": "survey",
     "start_date": "1976-05",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8738165",
     "wheelchair": "yes",
@@ -8628,7 +8623,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "source": "survey",
     "start_date": "1994-08-29",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8738265",
     "wheelchair": "yes",
@@ -8650,7 +8645,7 @@ myData_RER={
     "ref:FR:uic8": "87381905",
     "ref:SNCF:Transilien": "L",
     "source": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8738190",
     "wheelchair": "yes",
@@ -8681,7 +8676,7 @@ myData_RER={
     "source": "survey",
     "start_date": "1985-09-22",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8738249",
     "wheelchair": "yes",
@@ -8709,7 +8704,7 @@ myData_RER={
     "ref:FR:uic8": "87381459",
     "source": "survey",
     "start_date": "1984",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738145",
     "wheelchair": "yes",
     "wikidata": "Q2532157",
@@ -8733,7 +8728,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "source": "survey",
     "start_date": "1994-08-29",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8733448",
     "wheelchair": "yes",
@@ -8756,7 +8751,7 @@ myData_RER={
     "ref:FR:RATP": "139445",
     "ref:FR:uic8": "87113852",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8711385"
   }
 },
@@ -8774,7 +8769,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5587",
     "ref:FR:uic8": "87543207",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754320",
     "wikidata": "Q2416280",
     "wikipedia": "fr:Gare de l'avenue du Président Kennedy"
@@ -8801,7 +8796,7 @@ myData_RER={
     "ref:FR:uic8": "87276139",
     "ref:SNCF:Transilien": "J",
     "tracks": "10",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8727613",
     "wikidata": "Q2135753",
@@ -8822,7 +8817,7 @@ myData_RER={
     "ref:FR:STIF": "41298",
     "ref:FR:uic8": "87545137",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754513",
     "wikidata": "Q2530992",
     "wikipedia": "fr:Gare d'Étampes"
@@ -8844,7 +8839,7 @@ myData_RER={
     "ref:FR:uic8": "87393306",
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739330",
     "wheelchair": "yes",
     "wikidata": "Q3065321",
@@ -8860,7 +8855,7 @@ myData_RER={
     "name": "Issy",
     "public_transport": "stop_position",
     "train": "yes",
-    "type:RATP": "rer"
+    "typeRATP": "rer"
   }
 },
 {
@@ -8884,7 +8879,7 @@ myData_RER={
     "ref:FR:uic8": "87547307",
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754730",
     "wheelchair": "no",
     "wikidata": "Q15260427",
@@ -8912,7 +8907,7 @@ myData_RER={
     "ref:SNCF:RER": "C",
     "short_name": "Versailles Rive Gauche",
     "source": "survey 2013",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739315",
     "wheelchair": "yes",
     "wikidata": "Q2626462",
@@ -8938,7 +8933,7 @@ myData_RER={
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
     "source": "STIF - 02/2020",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739306",
     "wheelchair": "no",
     "wikidata": "Q800968",
@@ -8967,7 +8962,7 @@ myData_RER={
     "start_date": "1900-07-19",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1344536",
     "wikipedia": "fr:Porte Maillot (métro de Paris)"
@@ -8998,7 +8993,7 @@ myData_RER={
     "ref:SNCF": "Transilien;RER",
     "ref:SNCF:Transilien": "H",
     "route_ref:FR:RER_D": "SOVA;FUCA;VIPE;LOVA;VUCA;FOVA;LUCA;VOVA;SUCA;VOPA;FOPA;LOPA",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727101",
     "website": "https://www.transilien.com/fr/gare/saint-denis-8727101",
     "wheelchair": "no",
@@ -9015,7 +9010,7 @@ myData_RER={
     "name": "Avenue Foch",
     "public_transport": "stop_position",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738103"
   }
 },
@@ -9034,7 +9029,7 @@ myData_RER={
     "ref:FR:STIF": "412798",
     "source": "knowledge;survey",
     "start_date": "1838",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775804",
     "wheelchair": "yes",
     "wikidata": "Q581559",
@@ -9052,7 +9047,7 @@ myData_RER={
     "name": "Sevran - Beaudottes",
     "railway": "stop",
     "ref:FR:RATP": "1703",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727144",
     "wikidata": "Q3097731",
     "wikipedia": "fr:Gare de Sevran - Beaudottes"
@@ -9073,7 +9068,7 @@ myData_RER={
     "railway": "station",
     "ref": "RER B",
     "ref:FR:RATP": "1970",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775864",
     "website": "https://www.ratp.fr/",
     "wheelchair": "yes",
@@ -9094,7 +9089,7 @@ myData_RER={
     "ref:FR:STIF": "24407",
     "source": "STIF - 02/2020",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -9110,7 +9105,7 @@ myData_RER={
     "public_transport": "stop_position",
     "railway": "tram_stop",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes",
     "wikidata": "Q28732848"
   }
@@ -9130,7 +9125,7 @@ myData_RER={
     "ref:FR:RATP": "139445",
     "ref:FR:uic8": "87113852",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8711385"
   }
 },
@@ -9151,7 +9146,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "tactile_paving": "yes",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_name": "nanterre-universite",
     "uic_ref": "8775803; 8738631",
     "wheelchair": "no",
@@ -9171,7 +9166,7 @@ myData_RER={
     "construction:station": "subway",
     "construction:subway": "yes",
     "name": "Mairie d'Aubervilliers",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -9185,7 +9180,7 @@ myData_RER={
     "name": "Bibliothèque François Mitterrand",
     "public_transport": "stop_position",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q571159"
   }
 },
@@ -9205,7 +9200,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1137613",
     "wikipedia": "fr:Cour Saint-Émilion (métro de Paris)"
@@ -9226,7 +9221,7 @@ myData_RER={
     "ref:FR:RATP": "1924",
     "source": "survey",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1445234",
     "wikipedia": "fr:Franklin D. Roosevelt (métro de Paris)"
@@ -9246,7 +9241,7 @@ myData_RER={
     "ref:FR:RATP": "1964",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q601484",
     "wikipedia": "fr:Châtelet (métro de Paris)"
@@ -9266,7 +9261,7 @@ myData_RER={
     "ref:FR:RATP": "1964",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q601484",
     "wikipedia": "fr:Châtelet (métro de Paris)"
@@ -9286,7 +9281,7 @@ myData_RER={
     "ref:FR:RATP": "1964",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q601484",
     "wikipedia": "fr:Châtelet (métro de Paris)"
@@ -9305,7 +9300,7 @@ myData_RER={
     "public_transport": "stop_position",
     "ref:FR:RATP": "1964",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q601484",
     "wikipedia": "fr:Châtelet (métro de Paris)"
@@ -9327,7 +9322,7 @@ myData_RER={
     "ref:FR:RATP": "1967",
     "start_date": "1977-12-09",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775860",
     "wheelchair": "limited",
     "wikidata": "Q800627",
@@ -9350,7 +9345,7 @@ myData_RER={
     "ref:FR:RATP": "1967",
     "start_date": "1977-12-09",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775860",
     "wheelchair": "limited",
     "wikidata": "Q800627",
@@ -9375,7 +9370,7 @@ myData_RER={
     "route_ref:FR:RER_D": "SOVA;FUCA;UOVA;VIPE;LOVA;VUCA;FOVA;LUCA;VOVA;MIPE;UUCA;SUCA;VOPA;MOPA;MIPA;FOPA;LOPA",
     "source": "STIF - 12/2016",
     "start_date": "1977-12-09",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775860",
     "wheelchair": "limited",
     "wikidata": "Q800627",
@@ -9404,7 +9399,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1341849"
   }
 },
@@ -9430,7 +9425,7 @@ myData_RER={
     "ref:SNCF:RER": "C",
     "step:contrast": "yes",
     "tactile_paving": "no",
-    "type:RATP": "rer;metro",
+    "typeRATP": "rer;metro",
     "type:SNCF": "rer;metro",
     "wheelchair": "yes"
   }
@@ -9453,7 +9448,7 @@ myData_RER={
     "ref": "5",
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "rer",
     "wheelchair": "yes"
   }
@@ -9475,7 +9470,7 @@ myData_RER={
     "ref": "3",
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
-    "type:RATP": "rer;metro",
+    "typeRATP": "rer;metro",
     "type:SNCF": "rer;metro",
     "wheelchair": "yes"
   }
@@ -9493,7 +9488,7 @@ myData_RER={
     "ref:FR:RATP": "51020",
     "ref:FR:STIF": "21955",
     "source": "RATP - 07/2012",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8732832",
     "wheelchair": "yes",
     "wikidata": "Q2856214",
@@ -9512,7 +9507,7 @@ myData_RER={
     "ref:FR:STIF": "412843",
     "source": "STIF - 12/2016",
     "source:ref:RATP": "RATP - 07/2012",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "wheelchair": "yes",
     "wikidata": "Q1958487",
     "wikipedia": "fr:Gare de Bagneux"
@@ -9533,7 +9528,7 @@ myData_RER={
     "ref:FR:RATP": "109714",
     "ref:FR:uic8": "87682518",
     "route_ref:FR:RER_D": "ZOPO; ZIPE; ZIPO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768251",
     "wikidata": "Q2063001",
     "wikipedia": "fr:Gare de Boissise-le-Roi"
@@ -9561,7 +9556,7 @@ myData_RER={
     "speech_output:fr": "yes",
     "tactile_paving": "no",
     "tactile_writing:braille:fr": "yes",
-    "type:RATP": "rer;metro",
+    "typeRATP": "rer;metro",
     "type:SNCF": "rer;metro",
     "wheelchair": "yes"
   }
@@ -9585,7 +9580,7 @@ myData_RER={
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739305",
     "wheelchair": "limited",
     "wikidata": "Q800620",
@@ -9608,7 +9603,7 @@ myData_RER={
     "ref:FR:uic8": "87393058",
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739305",
     "wheelchair": "limited",
     "wikidata": "Q800620",
@@ -9631,7 +9626,7 @@ myData_RER={
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739304",
     "wheelchair": "yes",
     "wikidata": "Q1858826",
@@ -9659,7 +9654,7 @@ myData_RER={
     "ref:SNCF:RER": "C",
     "source:end_date": "https://malignec.transilien.com/2017/07/25/fermeture-de-gare-pont-de-lalma/",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739304",
     "wheelchair": "yes",
     "wikidata": "Q1858826",
@@ -9682,7 +9677,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q612971",
     "wikipedia": "fr:Anvers (métro de Paris)"
@@ -9704,7 +9699,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1577103",
     "wikipedia": "fr:La Chapelle (métro de Paris)"
@@ -9730,7 +9725,7 @@ myData_RER={
     "ref:SNCF:RER": "C",
     "subway": "yes",
     "train": "yes",
-    "type:RATP": "metro;rer",
+    "typeRATP": "metro;rer",
     "uic_ref": "8754702",
     "wheelchair": "no",
     "wikidata": "Q1494179",
@@ -9753,7 +9748,7 @@ myData_RER={
     "ref:FR:RATP": "5605;1838;226221",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1494179",
     "wikipedia": "fr:Gare d'Austerlitz (métro de Paris)"
@@ -9775,7 +9770,7 @@ myData_RER={
     "ref:FR:RATP": "5605;1838;226221",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1494179",
     "wikipedia": "fr:Gare d'Austerlitz (métro de Paris)"
@@ -9796,7 +9791,7 @@ myData_RER={
     "ref:FR:STIF": "22004",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1969501",
     "wikipedia": "fr:Quai de la Rapée (métro de Paris)"
@@ -9818,7 +9813,7 @@ myData_RER={
     "ref:FR:STIF": "22029",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1783889",
     "wikipedia": "fr:Sentier (métro de Paris)"
   }
@@ -9834,7 +9829,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5638",
     "ref:FR:uic8": "87545152",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754515",
     "wikidata": "Q3096176",
     "wikipedia": "fr:Gare de Chamarande"
@@ -9857,7 +9852,7 @@ myData_RER={
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
     "tactile_paving": "no",
-    "type:RATP": "rer;metro",
+    "typeRATP": "rer;metro",
     "type:SNCF": "rer;metro",
     "wheelchair": "no"
   }
@@ -9874,7 +9869,7 @@ myData_RER={
     "railway:position:exact": "14.056",
     "ref:FR:RATP": "51928",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711351",
     "wheelchair": "yes",
     "wikidata": "Q2187463"
@@ -9898,7 +9893,7 @@ myData_RER={
     "ref:FR:RATP": "20989",
     "ref:FR:uic8": "87682153",
     "route_ref:FR:RER_D": "ZUCO;ZECO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768215",
     "wikidata": "Q2588017",
     "wikipedia": "fr:Gare de Lieusaint - Moissy"
@@ -9916,7 +9911,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87545269",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754526",
     "wikidata": "Q1867611",
     "wikipedia": "fr:Gare d'Ablon"
@@ -9935,7 +9930,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5619",
     "ref:FR:uic8": "87545251",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754525",
     "wikidata": "Q2199402",
     "wikipedia": "fr:Gare d'Athis-Mons"
@@ -9955,7 +9950,7 @@ myData_RER={
     "ref:FR:RATP": "5620",
     "ref:FR:uic8": "87545244",
     "short_name": "Juvisy",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754524",
     "wikidata": "Q628695",
     "wikipedia": "fr:Gare de Juvisy"
@@ -9974,7 +9969,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5620",
     "ref:FR:uic8": "87545236",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754523",
     "wikidata": "Q2683824",
     "wikipedia": "fr:Gare de Savigny-sur-Orge"
@@ -9997,7 +9992,7 @@ myData_RER={
     "ref:FR:uic8": "87682112",
     "route_ref:FR:RER_D": "ZUCO;NUCO;ZECO",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768211",
     "wikidata": "Q2652954",
     "wikipedia": "fr:Gare d'Yerres"
@@ -10016,7 +10011,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5622",
     "ref:FR:uic8": "87545228",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754522",
     "wikidata": "Q3095875",
     "wikipedia": "fr:Gare d'Épinay-sur-Orge"
@@ -10036,7 +10031,7 @@ myData_RER={
     "ref:FR:RATP": "5636",
     "ref:FR:uic8": "87545178",
     "short_name": "Bouray",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754517",
     "wikidata": "Q2202902",
     "wikipedia": "fr:Gare de Bouray"
@@ -10055,7 +10050,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:uic8": "87545194",
     "short_name": "Brétigny",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754519",
     "wikidata": "Q2209526",
     "wikipedia": "fr:Gare de Brétigny-sur-Orge"
@@ -10074,7 +10069,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5626",
     "ref:FR:uic8": "87545459",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754545",
     "wikidata": "Q1854741",
     "wikipedia": "fr:Gare de La Norville - Saint-Germain-lès-Arpajon"
@@ -10093,7 +10088,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5637",
     "ref:FR:uic8": "87545160",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754516",
     "wikidata": "Q1822085",
     "wikipedia": "fr:Gare de Lardy"
@@ -10112,7 +10107,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5635",
     "ref:FR:uic8": "87545186",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754518",
     "wikidata": "Q1863955",
     "wikipedia": "fr:Gare de Marolles-en-Hurepoix"
@@ -10133,7 +10128,7 @@ myData_RER={
     "ref:FR:STIF": "41316",
     "ref:FR:uic8": "87545350",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754535",
     "wikidata": "Q2210314",
     "wikipedia": "fr:Gare de Saint-Martin-d'Étampes"
@@ -10152,7 +10147,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5624",
     "ref:FR:uic8": "87545202",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754520",
     "wikidata": "Q2239928",
     "wikipedia": "fr:Gare de Saint-Michel-sur-Orge"
@@ -10171,7 +10166,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5623",
     "ref:FR:uic8": "87545210",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754521",
     "wikidata": "Q2339300",
     "wikipedia": "fr:Gare de Sainte-Geneviève-des-Bois"
@@ -10191,7 +10186,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5639",
     "ref:FR:uic8": "87545145",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754514",
     "wikidata": "Q2296325",
     "wikipedia": "fr:Gare d'Étréchy"
@@ -10209,7 +10204,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87545467",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754546",
     "wikidata": "Q652778",
     "wikipedia": "fr:Gare d'Arpajon"
@@ -10227,7 +10222,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87545483",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754548",
     "wikidata": "Q2413575",
     "wikipedia": "fr:Gare de Breuillet - Bruyères-le-Châtel"
@@ -10246,7 +10241,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5631",
     "ref:FR:uic8": "87545491",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754549",
     "wikidata": "Q2467699",
     "wikipedia": "fr:Gare de Breuillet - Village"
@@ -10265,7 +10260,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5632",
     "ref:FR:uic8": "87545509",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754550",
     "wikidata": "Q2530265",
     "wikipedia": "fr:Gare de Saint-Chéron"
@@ -10283,7 +10278,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87545475",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754547",
     "wikidata": "Q2733637",
     "wikipedia": "fr:Gare d'Égly"
@@ -10305,7 +10300,7 @@ myData_RER={
     "route_ref": "TER Picardie; Intercités; RER D; transilien H",
     "route_ref:FR:RER_D": "SOVA; SUCA",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727600",
     "wikidata": "Q664142",
     "wikipedia": "fr:Gare de Creil"
@@ -10323,7 +10318,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393546",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739354",
     "wikidata": "Q2115505",
     "wikipedia": "fr:Gare de Bièvres"
@@ -10340,7 +10335,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87546317",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754631",
     "wikidata": "Q2560132",
     "wikipedia": "fr:Gare du Chemin d'Antony"
@@ -10358,7 +10353,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393637",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739363",
     "wikidata": "Q2330216",
     "wikipedia": "fr:Gare de Chilly-Mazarin"
@@ -10375,7 +10370,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393611",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739361",
     "wikidata": "Q1987604",
     "wikipedia": "fr:Gare de Longjumeau"
@@ -10392,7 +10387,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393082",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739308",
     "wikidata": "Q788394",
     "wikipedia": "fr:Gare de Meudon-Val-Fleury"
@@ -10409,7 +10404,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393645",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739364",
     "wikidata": "Q2093838",
     "wikipedia": "fr:Gare de Gravigny-Balizy"
@@ -10426,7 +10421,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393561",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739356",
     "wikidata": "Q3095782",
     "wikipedia": "fr:Gare d'Igny"
@@ -10443,7 +10438,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393074",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739307",
     "wikidata": "Q3095806",
     "wikipedia": "fr:Gare d'Issy"
@@ -10463,7 +10458,7 @@ myData_RER={
     "ref:FR:uic8": "87383281",
     "short_name": "Massy-Verrières",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738328",
     "wikidata": "Q1820997",
     "wikipedia": "fr:Gare de Massy - Verrières"
@@ -10481,7 +10476,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393652",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739365",
     "wikidata": "Q3097273",
     "wikipedia": "fr:Gare de Petit Vaux"
@@ -10498,7 +10493,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87381038",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738103",
     "wikidata": "Q800418",
     "wikipedia": "fr:Gare de l'avenue Foch"
@@ -10515,7 +10510,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87381046",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738104",
     "wikidata": "Q2266818",
     "wikipedia": "fr:Gare de l'avenue Henri Martin"
@@ -10538,7 +10533,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro;rer",
+    "typeRATP": "metro;rer",
     "uic_ref": "8754700",
     "wheelchair": "no",
     "wikidata": "Q1494179",
@@ -10559,7 +10554,7 @@ myData_RER={
     "ref:FR:uic8": "87381012",
     "source": "STIF - 12/2016",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738101",
     "wikidata": "Q1961971",
     "wikipedia": "fr:Gare de Pereire - Levallois"
@@ -10576,7 +10571,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87608802",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8760880",
     "wikidata": "Q2000447",
     "wikipedia": "fr:Gare de Créteil - Pompadour"
@@ -10593,7 +10588,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87271148",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727114",
     "wikidata": "Q3095880",
     "wikipedia": "fr:Gare d'Épinay-sur-Seine"
@@ -10611,7 +10606,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393173",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739317",
     "wheelchair": "no",
     "wikidata": "Q2868815",
@@ -10636,7 +10631,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:STIF": "41240",
     "ref:FR:uic8": "87393512",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739351",
     "wikidata": "Q3096667",
     "wikipedia": "fr:Gare de Jouy-en-Josas"
@@ -10654,7 +10649,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393009",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739300",
     "wheelchair": "yes",
     "wikidata": "Q2422473",
@@ -10674,7 +10669,7 @@ myData_RER={
     "railway:ref:DB": "XFGOU",
     "ref:FR:uic8": "87276246",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727624",
     "wikidata": "Q3096567",
     "wikipedia": "fr:Gare de Goussainville"
@@ -10693,7 +10688,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "55488",
     "ref:FR:uic8": "87337980",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_name": "St Ouen l'Aumône Liesse",
     "uic_ref": "8733798",
     "wikidata": "Q3097589",
@@ -10711,7 +10706,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393538",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739353",
     "wikidata": "Q3097938",
     "wikipedia": "fr:Gare de Vauboyen"
@@ -10728,7 +10723,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87276253",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727625",
     "wikidata": "Q2716584",
     "wikipedia": "fr:Gare de Louvres"
@@ -10751,7 +10746,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "station",
     "ref:FR:uic8": "87276089",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727608",
     "wikidata": "Q727864",
     "wikipedia": "fr:Gare de Montigny - Beauchamp"
@@ -10769,7 +10764,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393504",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739350",
     "wikidata": "Q2050729",
     "wikipedia": "fr:Gare de Petit Jouy - Les Loges"
@@ -10791,7 +10786,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "station",
     "ref:FR:uic8": "87276097",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727609",
     "wikidata": "Q2632063",
     "wikipedia": "fr:Gare de Pierrelaye"
@@ -10808,7 +10803,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393165",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739316",
     "wheelchair": "no",
     "wikidata": "Q2893595",
@@ -10830,7 +10825,7 @@ myData_RER={
     "ref:FR:RATP": "1870",
     "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775874",
     "wheelchair": "limited",
     "wikidata": "Q2893718",
@@ -10849,7 +10844,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1778",
     "source": "RATP - 07/2012",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "wikidata": "Q3010543",
     "wikipedia": "fr:Gare du Parc de Sceaux"
   }
@@ -10871,7 +10866,7 @@ myData_RER={
     "station": "light_rail",
     "toilets:wheelchair": "no",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775875",
     "wheelchair": "yes",
     "wikidata": "Q2341704",
@@ -10890,7 +10885,7 @@ myData_RER={
     "ref:FR:RATP": "1935",
     "ref:FR:STIF": "412812",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775498",
     "wheelchair": "yes",
     "wikidata": "Q2181033",
@@ -10909,7 +10904,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1626",
     "source": "RATP - 07/2012",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775889",
     "wheelchair": "yes",
     "wikidata": "Q1990635",
@@ -10932,7 +10927,7 @@ myData_RER={
     "ref:FR:uic8": "87271494",
     "short_name": "Aéroport CdG 2",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727149",
     "wheelchair": "yes",
     "wikidata": "Q800424",
@@ -10952,7 +10947,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5588",
     "ref:FR:uic8": "87393843",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739384",
     "wikidata": "Q3097620",
     "wikipedia": "fr:Gare de Saint-Quentin-en-Yvelines - Montigny-le-Bretonneux"
@@ -10974,7 +10969,7 @@ myData_RER={
     "ref:FR:uic8": "87545301",
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754530",
     "wikidata": "Q3095813",
     "wikipedia": "fr:Gare d'Ivry-sur-Seine"
@@ -10994,7 +10989,7 @@ myData_RER={
     "ref:FR:uic8": "87545293",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
     "toilets:wheelchair": "no",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754529",
     "wheelchair": "limited",
     "wheelchair:description": "Les trains ne sont pas accessibles en fauteuil roulant",
@@ -11017,7 +11012,7 @@ myData_RER={
     "ref:FR:RATP": "20953",
     "ref:FR:uic8": "87681155",
     "route_ref:FR:RER_D": "ZOPO;ROVO;ZUCO;NUCO;ROPO;BOPO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768115",
     "wheelchair": "yes",
     "wikidata": "Q3096963",
@@ -11036,7 +11031,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5611",
     "ref:FR:uic8": "87546226",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754622",
     "wikidata": "Q2204334",
     "wikipedia": "fr:Gare des Saules"
@@ -11053,7 +11048,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5612",
     "ref:FR:uic8": "87546200",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754620",
     "wikidata": "Q2125977",
     "wikipedia": "fr:Gare d'Orly-Ville"
@@ -11075,7 +11070,7 @@ myData_RER={
     "ref:FR:uic8": "87545277",
     "source": "STIF - 12/2016",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754527",
     "wikidata": "Q2044848",
     "wikipedia": "fr:Gare de Villeneuve-le-Roi"
@@ -11093,7 +11088,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5613",
     "ref:FR:uic8": "87546192",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754619",
     "wikidata": "Q1858099",
     "wikipedia": "fr:Gare du Pont de Rungis - Aéroport d'Orly"
@@ -11111,7 +11106,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5614",
     "ref:FR:uic8": "87546291",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754629",
     "wheelchair": "no",
     "wikidata": "Q2784751",
@@ -11129,7 +11124,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1762",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775831",
     "wheelchair": "yes",
     "wikidata": "Q2373182",
@@ -11152,7 +11147,7 @@ myData_RER={
     "ref": "RER D",
     "route_ref:FR:RER_D": "ROVO; SOVA; UOVA; LOVA; FOVA; VOVA; DOVA",
     "train": "yes",
-    "type:RATP": "rer"
+    "typeRATP": "rer"
   }
 },
 {
@@ -11172,7 +11167,7 @@ myData_RER={
     "ref:FR:uic8": "87681361",
     "route_ref:FR:RER_D": "ROVO; SOVA; UOVA; LOVA; FOVA; VOVA; DOVA",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768136",
     "wikidata": "Q2612260",
     "wikipedia": "fr:Gare d'Évry-Val-de-Seine"
@@ -11196,7 +11191,7 @@ myData_RER={
     "ref:FR:uic8": "87681338",
     "route_ref:FR:RER_D": "ROVO; SOVA; UOVA; LOVA; FOVA; VOVA; DOVA",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768133",
     "wheelchair": "yes",
     "wikidata": "Q527543",
@@ -11215,7 +11210,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5589",
     "ref:FR:uic8": "87393223",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739322",
     "wheelchair": "no",
     "wikidata": "Q2134724",
@@ -11232,7 +11227,7 @@ myData_RER={
     "name": "Saint-Lazare",
     "public_transport": "stop_position",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1519529",
     "wikipedia": "fr:Saint-Lazare (métro de Paris)"
   }
@@ -11260,7 +11255,7 @@ myData_RER={
     "start_date": "1903-10-19",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "limited",
     "wikidata": "Q1519529",
     "wikipedia": "fr:Saint-Lazare (métro de Paris)"
@@ -11281,7 +11276,7 @@ myData_RER={
     "ref:FR:RATP": "109715",
     "ref:FR:uic8": "87682500",
     "route_ref:FR:RER_D": "ZUCO; NUCO; ZECO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768250",
     "wikidata": "Q3098041",
     "wikipedia": "fr:Gare de Vosves"
@@ -11304,7 +11299,7 @@ myData_RER={
     "ref:FR:uic8": "87681312",
     "route_ref:FR:RER_D": "ZOPO; ROVO; ROPO; RIPO; BIPO; BOPO; ZIPO; SAVA; DOPA; UOVA; LOPA; LOVA; FOVA; VOVA; JOPA; MIPA; DIPA; VOPA; MOPA; DOVA",
     "source": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768131",
     "wikidata": "Q2092521",
     "wikipedia": "fr:Gare de Viry-Châtillon"
@@ -11321,7 +11316,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "51935",
     "ref:FR:uic8": "87113795",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711379",
     "wikidata": "Q1859401",
     "wikipedia": "fr:Gare de Villiers-sur-Marne - Le Plessis-Trévise"
@@ -11348,7 +11343,7 @@ myData_RER={
     "ref:FR:RATP": "5563",
     "ref:FR:uic8": "87276220",
     "route_ref:FR:RER_D": "SOVA;FUCA;VIPE;LOVA;VUCA;FOVA;LUCA;VOVA;SUCA;VOPA;FOPA;LOPA",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727622",
     "wheelchair": "limited",
     "wikidata": "Q3098018",
@@ -11367,7 +11362,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1653",
     "ref:FR:uic8": "87271452",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727145",
     "wheelchair": "yes",
     "wikidata": "Q2619128",
@@ -11387,7 +11382,7 @@ myData_RER={
     "ref:FR:RATP": "1652",
     "ref:FR:uic8": "87271452",
     "short_name": "Villeparisis",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727151",
     "wikidata": "Q2004898",
     "wikipedia": "fr:Gare de Villeparisis - Mitry-le-Neuf"
@@ -11410,7 +11405,7 @@ myData_RER={
     "ref:FR:uic8": "87681809",
     "route_ref:FR:RER_D": "ZOPO; ROVO; ROPO; BOPO",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768180",
     "wikidata": "Q2072158",
     "wikipedia": "fr:Gare de Villeneuve-Triage"
@@ -11437,7 +11432,7 @@ myData_RER={
     "ref:FR:uic8": "87681825",
     "route_ref:FR:RER_D": "ZOPO;ROVO;RIPE;BIPE;ZUCO;NUCO;ZIPE;TIPE;RIPO;ROPO;BOPO;ZIPO;BIPO",
     "source": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768182",
     "wikidata": "Q2293848",
     "wikipedia": "fr:Gare de Villeneuve-Saint-Georges"
@@ -11456,7 +11451,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "20982",
     "ref:FR:uic8": "87684407",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768440",
     "wikidata": "Q523954",
     "wikipedia": "fr:Gare de Boigneville"
@@ -11477,7 +11472,7 @@ myData_RER={
     "railway": "station",
     "railway:ref:DB": "XFMPU",
     "ref:FR:uic8": "87393579",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739357",
     "website": "https://www.transilien.com/",
     "wikidata": "Q801166",
@@ -11496,7 +11491,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1647",
     "ref:FR:uic8": "87271437",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727143",
     "wikidata": "Q2453871",
     "wikipedia": "fr:Gare du Vert-Galant"
@@ -11514,7 +11509,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1703",
     "ref:FR:uic8": "87271445",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727144",
     "wikidata": "Q3097731",
     "wikipedia": "fr:Gare de Sevran - Beaudottes"
@@ -11538,7 +11533,7 @@ myData_RER={
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754731;8778543",
     "website": "https://www.vianavigo.com/",
     "wheelchair": "yes",
@@ -11558,7 +11553,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "51932",
     "ref:FR:uic8": "87113704",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711370",
     "usage": "main",
     "wikidata": "Q2940664",
@@ -11576,7 +11571,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "58000",
     "ref:FR:uic8": "87116038",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711603",
     "usage": "main",
     "wikidata": "Q3097436",
@@ -11607,7 +11602,7 @@ myData_RER={
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739332",
     "wheelchair": "yes",
     "wikidata": "Q2200121",
@@ -11631,7 +11626,7 @@ myData_RER={
     "ref:FR:RATP": "5561",
     "ref:FR:uic8": "87271163",
     "route_ref:FR:RER_D": "SOVA;FUCA;VIPE;LOVA;VUCA;FOVA;LUCA;VOVA;SUCA;VOPA;FOPA;LOPA",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727116",
     "wheelchair": "yes",
     "wikidata": "Q2260729",
@@ -11652,7 +11647,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1777",
     "ref:FR:uic8": "87271486",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727148",
     "wheelchair": "yes",
     "wikidata": "Q2048659",
@@ -11674,7 +11669,7 @@ myData_RER={
     "ref:FR:RATP": "20971",
     "ref:FR:uic8": "87681346",
     "source": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768134",
     "wheelchair": "yes",
     "wikidata": "Q2041479",
@@ -11696,7 +11691,7 @@ myData_RER={
     "ref:FR:STIF": "41012",
     "ref:FR:uic8": "87113217",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711321",
     "wikidata": "Q2144965",
     "wikipedia": "fr:Gare de Noisy-le-Sec"
@@ -11717,7 +11712,7 @@ myData_RER={
     "ref:FR:RATP": "5643",
     "ref:FR:uic8": "87381020",
     "signage": "good",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738102",
     "wheelchair": "yes",
     "wikidata": "Q384902",
@@ -11737,7 +11732,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1748",
     "ref:FR:uic8": "87271528",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727152",
     "wikidata": "Q2285712",
     "wikipedia": "fr:Gare de Mitry - Claye"
@@ -11759,7 +11754,7 @@ myData_RER={
     "ref:FR:uic8": "87681353",
     "route_ref:FR:RER_D": "ROVO; SOVA; UOVA; LOVA; FOVA; VOVA; DOVA",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768135",
     "wikidata": "Q2804825",
     "wikipedia": "fr:Gare de Grand Bourg"
@@ -11784,7 +11779,7 @@ myData_RER={
     "ref:FR:uic8": "87381020",
     "signage": "good",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738102",
     "wheelchair": "yes",
     "wikidata": "Q384902",
@@ -11804,7 +11799,7 @@ myData_RER={
     "public_transport": "stop_position",
     "ref:FR:RATP": "51925",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711321",
     "wikidata": "Q2144965",
     "wikipedia": "fr:Gare de Noisy-le-Sec"
@@ -11827,7 +11822,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "start_date": "1931",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1459231",
     "wikipedia": "fr:Victor Hugo (métro de Paris)"
@@ -11856,7 +11851,7 @@ myData_RER={
     "ref:FR:STIF": "22085",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q970075",
     "wikipedia": "fr:Concorde (métro de Paris)"
@@ -11875,7 +11870,7 @@ myData_RER={
     "ref:FR:uic8": "87654798",
     "start_date": "2015-12-13",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8765479",
     "wikidata": "Q3095535",
     "wikipedia": "fr:Gare Rosa Parks"
@@ -11895,7 +11890,7 @@ myData_RER={
     "railway": "stop",
     "ref:FR:RATP": "1823",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_name": "satrouville",
     "uic_ref": "8738642",
     "wheelchair": "yes",
@@ -11920,7 +11915,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "tactile_paving": "yes",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_name": "nanterre-universite",
     "uic_ref": "8775803; 8738631",
     "wheelchair": "no",
@@ -11945,7 +11940,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "tactile_paving": "yes",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_name": "nanterre-universite",
     "uic_ref": "8775803; 8738631",
     "wheelchair": "no",
@@ -11969,7 +11964,7 @@ myData_RER={
     "ref:FR:STIF": "22185",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1528456",
     "wikipedia": "fr:Invalides (métro de Paris)"
@@ -11990,7 +11985,7 @@ myData_RER={
     "ref:FR:RATP": "1954",
     "ref:FR:STIF": "412807",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775800"
   }
 },
@@ -12014,7 +12009,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1272925",
     "wikipedia": "fr:Trocadéro (métro de Paris)"
@@ -12037,7 +12032,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q338898",
     "wikipedia": "fr:Pigalle (métro de Paris)"
@@ -12063,7 +12058,7 @@ myData_RER={
     "ref:SNCF:RER": "C",
     "subway": "yes",
     "train": "yes",
-    "type:RATP": "metro;rer",
+    "typeRATP": "metro;rer",
     "uic_ref": "8754702",
     "wheelchair": "no",
     "wikidata": "Q1494179",
@@ -12087,7 +12082,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q957172",
     "wikipedia": "fr:Château Rouge (métro de Paris)"
@@ -12113,7 +12108,7 @@ myData_RER={
     "station": "subway",
     "subway": "yes",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1463644",
     "wikipedia": "fr:Jussieu (métro de Paris)"
@@ -12133,7 +12128,7 @@ myData_RER={
     "ref:FR:RATP": "1700",
     "ref:FR:uic8": "87386417",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738641",
     "wheelchair": "yes",
     "wikidata": "Q2549086",
@@ -12155,7 +12150,7 @@ myData_RER={
     "ref:FR:RATP": "15518",
     "ref:SNCF:Transilien": "L",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_name": "cergy-prefecture",
     "uic_ref": "8738190",
@@ -12174,7 +12169,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87393215",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739321",
     "wikidata": "Q3098020",
     "wikipedia": "fr:Gare de Viroflay-Rive-Gauche"
@@ -12193,7 +12188,7 @@ myData_RER={
     "ref:FR:RATP": "1629",
     "ref:FR:STIF": "412803",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775819",
     "wheelchair": "yes",
     "wikidata": "Q2218079",
@@ -12219,7 +12214,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "limited",
     "wikidata": "Q800624",
     "wikipedia": "fr:Charles de Gaulle - Étoile (métro de Paris)"
@@ -12240,7 +12235,7 @@ myData_RER={
     "ref:FR:RATP": "5605;1838;226221",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1494179",
     "wikipedia": "fr:Gare d'Austerlitz (métro de Paris)"
@@ -12261,7 +12256,7 @@ myData_RER={
     "ref:FR:RATP": "20971",
     "source": "survey",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768134",
     "wheelchair": "yes",
     "wikidata": "Q2041479",
@@ -12283,7 +12278,7 @@ myData_RER={
     "ref:FR:RATP": "20991",
     "ref:FR:uic8": "87682161",
     "route_ref:FR:RER_D": "ZUCO;ZECO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768216",
     "wikidata": "Q3096167",
     "wikipedia": "fr:Gare de Cesson"
@@ -12305,7 +12300,7 @@ myData_RER={
     "ref:SNCF:RER": "A",
     "ref:SNCF:Transilien": "J",
     "start_date": "1843-05-09",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "RER; Transilien",
     "uic_ref": "8738657",
     "wikidata": "Q2394458",
@@ -12323,7 +12318,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "51926",
     "ref:FR:uic8": "87113407",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711340",
     "wheelchair": "limited",
     "wikidata": "Q2802702",
@@ -12348,7 +12343,7 @@ myData_RER={
     "route_ref:FR:RER_D": "ZUCO;ZECO",
     "short_name": "Le Mée",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768217",
     "wikidata": "Q2672917"
   }
@@ -12369,7 +12364,7 @@ myData_RER={
     "ref:FR:RATP": "20984",
     "ref:FR:uic8": "87682104",
     "route_ref:FR:RER_D": "ZUCO;NUCO;ZECO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768210",
     "wikidata": "Q2435703",
     "wikipedia": "fr:Gare de Montgeron - Crosne"
@@ -12387,7 +12382,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1620",
     "ref:FR:uic8": "87271429",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727142",
     "wikidata": "Q927440",
     "wikipedia": "fr:Gare de Sevran - Livry"
@@ -12405,7 +12400,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "58003",
     "ref:FR:uic8": "87116210",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711621",
     "usage": "main",
     "wikidata": "Q2229470",
@@ -12430,7 +12425,7 @@ myData_RER={
     "source": "survey",
     "start_date": "1985-09-22",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8738249",
     "wheelchair": "yes",
@@ -12456,7 +12451,7 @@ myData_RER={
     "source": "survey",
     "start_date": "1985-09-22",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8738249",
     "wheelchair": "yes",
@@ -12476,7 +12471,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "58001",
     "ref:FR:uic8": "87116020",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711602",
     "wikidata": "Q2727575",
     "wikipedia": "fr:Gare d'Ozoir-la-Ferrière"
@@ -12497,7 +12492,7 @@ myData_RER={
     "ref:FR:RATP": "1709",
     "source": "survey",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1344555",
     "wikipedia": "fr:Pont de Neuilly (métro de Paris)"
@@ -12517,7 +12512,7 @@ myData_RER={
     "public_transport": "stop_position",
     "ref:FR:RATP": "1802",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q649160",
     "wikipedia": "fr:Les Sablons (métro de Paris)"
@@ -12538,7 +12533,7 @@ myData_RER={
     "ref:FR:RATP": "1709",
     "source": "survey",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1344555",
     "wikipedia": "fr:Pont de Neuilly (métro de Paris)"
@@ -12560,7 +12555,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1368326",
     "wikipedia": "fr:Esplanade de la Défense (métro de Paris)"
@@ -12584,7 +12579,7 @@ myData_RER={
     "ref:FR:RATP": "1885",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q970075",
     "wikipedia": "fr:Concorde (métro de Paris)"
@@ -12605,7 +12600,7 @@ myData_RER={
     "ref:FR:STIF": "22079",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1467113",
     "wikipedia": "fr:Palais Royal - Musée du Louvre (métro de Paris)"
@@ -12625,7 +12620,7 @@ myData_RER={
     "ref:FR:STIF": "41203",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q764465",
     "wikipedia": "fr:Montparnasse - Bienvenüe (métro de Paris)"
   }
@@ -12644,7 +12639,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q508256",
     "wikipedia": "fr:Bastille (métro de Paris)"
@@ -12663,7 +12658,7 @@ myData_RER={
     "public_transport": "stop_position",
     "ref:FR:RATP": "1964",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q601484",
     "wikipedia": "fr:Châtelet (métro de Paris)"
@@ -12685,7 +12680,7 @@ myData_RER={
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "station": "subway",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q968939",
     "wikipedia": "fr:Hôtel de Ville (métro de Paris)"
@@ -12710,7 +12705,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1403165",
     "wikipedia": "fr:Strasbourg - Saint-Denis (métro de Paris)"
@@ -12729,7 +12724,7 @@ myData_RER={
     "ref:FR:FANTOIR": "75101S293T",
     "ref:FR:RATP": "1809",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1461794",
     "wikipedia": "fr:Louvre - Rivoli (métro de Paris)"
@@ -12752,7 +12747,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q807893",
     "wikipedia": "fr:Barbès - Rochechouart (métro de Paris)"
@@ -12769,7 +12764,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1736",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q606164",
     "wikipedia": "fr:Porte des Lilas (métro de Paris)"
@@ -12791,7 +12786,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1537255",
     "wikipedia": "fr:Louis Blanc (métro de Paris)"
@@ -12807,7 +12802,7 @@ myData_RER={
     "name": "Bibliothèque François Mitterrand",
     "railway": "station",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q2856214",
     "wikipedia": "fr:Gare de la Bibliothèque François Mitterrand"
   }
@@ -12827,7 +12822,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q614049",
     "wikipedia": "fr:Gare de Lyon (métro de Paris)"
@@ -12852,7 +12847,7 @@ myData_RER={
     "ref:FR:uic8": "87271023;87271007",
     "short_name": "Gare du Nord",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727102;8727100",
     "wheelchair": "yes",
     "wikidata": "Q745942",
@@ -12877,7 +12872,7 @@ myData_RER={
     "ref:fr:RATP": "5574",
     "station": "train",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727606",
     "wikidata": "Q3096168"
   }
@@ -12894,7 +12889,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "302754",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes",
     "wikidata": "Q28709371"
   }
@@ -12916,7 +12911,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "start_date": "1970-01-19",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775800",
     "wheelchair": "limited",
     "wikidata": "Q800624",
@@ -12944,7 +12939,7 @@ myData_RER={
     "ref:FR:STIF": "412807",
     "source": "STIF - 12/2016",
     "start_date": "1970-01-19",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775800",
     "wheelchair": "limited",
     "wikidata": "Q800624",
@@ -12965,7 +12960,7 @@ myData_RER={
     "railway": "stop",
     "ref:FR:RATP": "1700",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_name": "sartrouville",
     "uic_ref": "8738641",
     "wheelchair": "yes",
@@ -12986,7 +12981,7 @@ myData_RER={
     "public_transport": "stop_position",
     "ref:FR:RATP": "1823",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_name": "satrouville",
     "uic_ref": "8738642",
     "wheelchair": "yes",
@@ -13009,7 +13004,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "start_date": "1994-08-29",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8738265",
     "wheelchair": "yes",
@@ -13035,7 +13030,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "start_date": "1994-08-29",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8738265",
     "wheelchair": "yes",
@@ -13063,7 +13058,7 @@ myData_RER={
     "station": "subway",
     "subway": "yes",
     "tunnel": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1885854",
     "wikipedia": "fr:Mairie de Saint-Ouen (métro de Paris)"
@@ -13084,7 +13079,7 @@ myData_RER={
     "ref:FR:RATP": "228266",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q3462074",
     "wikipedia": "fr:Saint-Denis Pleyel (métro de Paris)"
   }
@@ -13104,7 +13099,7 @@ myData_RER={
     "ref": "RJL",
     "ref:FR:RATP": "139448",
     "ref:FR:uic8": "87988709",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8798870"
   }
 },
@@ -13129,7 +13124,7 @@ myData_RER={
     "station": "subway",
     "subway": "yes",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1885854",
     "wikipedia": "fr:Mairie de Saint-Ouen (métro de Paris)"
   }
@@ -13153,7 +13148,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1044915",
     "wikipedia": "fr:Carrefour Pleyel (métro de Paris)"
@@ -13180,7 +13175,7 @@ myData_RER={
     "station": "subway",
     "subway": "yes",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1969873",
     "wikipedia": "fr:Saint-Denis - Porte de Paris (métro de Paris)"
@@ -13207,7 +13202,7 @@ myData_RER={
     "start_date": "1976-06-20",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q810151",
     "wikipedia": "fr:Basilique de Saint-Denis (métro de Paris)"
   }
@@ -13236,7 +13231,7 @@ myData_RER={
     "subway": "yes",
     "train": "yes",
     "tunnel": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "limited"
   }
 },
@@ -13260,7 +13255,7 @@ myData_RER={
     "start_date": "1907-11-15",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1494174",
     "wikipedia": "fr:Gare du Nord (métro de Paris)"
@@ -13279,7 +13274,7 @@ myData_RER={
     "ref:FR:RATP": "1669",
     "ref:FR:uic8": "87271460",
     "short_name": "Aéroport CdG 1",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727146",
     "wikidata": "Q742238",
     "wikipedia": "fr:Gare Aéroport Charles-de-Gaulle 1"
@@ -13298,7 +13293,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "139440",
     "ref:FR:uic8": "87431791",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8743179",
     "wikidata": "Q3443240"
   }
@@ -13314,7 +13309,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:uic8": "87113514",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711351"
   }
 },
@@ -13335,7 +13330,7 @@ myData_RER={
     "ref:FR:RATP": "1642",
     "source": "local_knowledge",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775830",
     "wheelchair": "yes",
     "wikidata": "Q2506909",
@@ -13361,7 +13356,7 @@ myData_RER={
     "ref:FR:STIF": "22379",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1458421",
     "wikipedia": "fr:Pont Neuf (métro de Paris)"
@@ -13388,7 +13383,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1458421",
     "wikipedia": "fr:Pont Neuf (métro de Paris)"
@@ -13408,7 +13403,7 @@ myData_RER={
     "ref:FR:RATP": "1964",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q601484",
     "wikipedia": "fr:Châtelet (métro de Paris)"
@@ -13433,7 +13428,7 @@ myData_RER={
     "start_date": "1977-10-03",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1576810",
     "wikipedia": "fr:Les Halles (métro de Paris)"
   }
@@ -13455,7 +13450,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1576810",
     "wikipedia": "fr:Les Halles (métro de Paris)"
   }
@@ -13478,7 +13473,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q669850",
     "wikipedia": "fr:Réaumur - Sébastopol (métro de Paris)"
@@ -13501,7 +13496,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q289916",
     "wikipedia": "fr:Étienne Marcel (métro de Paris)"
@@ -13524,7 +13519,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q289916",
     "wikipedia": "fr:Étienne Marcel (métro de Paris)"
@@ -13551,7 +13546,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1090753",
     "wikipedia": "fr:Château d'Eau (métro de Paris)"
@@ -13578,7 +13573,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1090753",
     "wikipedia": "fr:Château d'Eau (métro de Paris)"
@@ -13596,7 +13591,7 @@ myData_RER={
     "ref:FR:FANTOIR": "75109S092P",
     "ref:FR:RATP": "1957",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q951466",
     "wikipedia": "fr:Chaussée d'Antin - La Fayette (métro de Paris)"
@@ -13618,7 +13613,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1784008",
     "wikipedia": "fr:Le Peletier (métro de Paris)"
   }
@@ -13639,7 +13634,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1025135",
     "wikipedia": "fr:Cadet (métro de Paris)"
@@ -13661,7 +13656,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1784008",
     "wikipedia": "fr:Le Peletier (métro de Paris)"
   }
@@ -13687,7 +13682,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q764106",
     "wikipedia": "fr:Poissonnière (métro de Paris)"
@@ -13708,7 +13703,7 @@ myData_RER={
     "ref:FR:RATP": "1706",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q764106",
     "wikipedia": "fr:Poissonnière (métro de Paris)"
@@ -13729,7 +13724,7 @@ myData_RER={
     "ref:FR:RATP": "1706",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q764106",
     "wikipedia": "fr:Poissonnière (métro de Paris)"
@@ -13749,7 +13744,7 @@ myData_RER={
     "ref:FR:RATP": "1939",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1025135",
     "wikipedia": "fr:Cadet (métro de Paris)"
@@ -13771,7 +13766,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1501462",
     "wikipedia": "fr:Pyramides (métro de Paris)"
   }
@@ -13788,7 +13783,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "51927",
     "ref:FR:uic8": "87113472",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711347",
     "usage": "main",
     "wikidata": "Q2121460",
@@ -13816,7 +13811,7 @@ myData_RER={
     "ref:FR:uic8": "87164780",
     "route_ref:FR:RER_D": "SOVA;FUCA;UOVA;VIPE;LOVA;VUCA;FOVA;LUCA;VOVA;UUCA;SUCA;VOPA;FOPA;LOPA",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8716478",
     "wheelchair": "yes",
     "wikidata": "Q2678290",
@@ -13843,7 +13838,7 @@ myData_RER={
     "start_date": "1942-10-05",
     "subway": "yes",
     "tunnel": "yes",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -13865,7 +13860,7 @@ myData_RER={
     "start_date": "1942-10-05",
     "subway": "yes",
     "tunnel": "yes",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -13887,7 +13882,7 @@ myData_RER={
     "start_date": "1908-04-21",
     "subway": "yes",
     "tunnel": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "limited"
   }
 },
@@ -13907,7 +13902,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1784015",
     "wikipedia": "fr:Porte d'Ivry (métro de Paris)"
@@ -13926,7 +13921,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "start_date": "2012-12-18",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1185683",
     "wikipedia": "fr:Front Populaire (métro de Paris)"
@@ -13945,7 +13940,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "136249",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -13962,7 +13957,7 @@ myData_RER={
     "railway": "tram_stop",
     "ref:FR:RATP": "136249",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -13976,7 +13971,7 @@ myData_RER={
     "name": "Saint-Ouen",
     "railway": "station",
     "ref:FR:uic8": "87271247",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727124"
   }
 },
@@ -13990,7 +13985,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:uic8": "87272146",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727214"
   }
 },
@@ -14007,7 +14002,7 @@ myData_RER={
     "ref:FR:RATP": "54339",
     "ref:FR:uic8": "87113522",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8711352",
     "wikidata": "Q2393856",
     "wikipedia": "fr:Gare du Chénay - Gagny"
@@ -14026,7 +14021,7 @@ myData_RER={
     "railway": "stop",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -14042,7 +14037,7 @@ myData_RER={
     "railway": "stop",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -14058,7 +14053,7 @@ myData_RER={
     "railway": "stop",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -14074,7 +14069,7 @@ myData_RER={
     "railway": "stop",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -14090,7 +14085,7 @@ myData_RER={
     "railway": "stop",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -14106,7 +14101,7 @@ myData_RER={
     "railway": "stop",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -14122,7 +14117,7 @@ myData_RER={
     "railway": "stop",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q31190670"
   }
 },
@@ -14139,7 +14134,7 @@ myData_RER={
     "railway": "stop",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -14155,7 +14150,7 @@ myData_RER={
     "railway": "stop",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -14175,7 +14170,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "start_date": "1970-02-20",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775801",
     "wheelchair": "yes",
     "wikidata": "Q2661251",
@@ -14197,7 +14192,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1775",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775880",
     "wheelchair": "yes",
     "wikidata": "Q2596452",
@@ -14218,7 +14213,7 @@ myData_RER={
     "ref": "RER B",
     "ref:FR:RATP": "1713",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775862",
     "wheelchair": "yes",
     "wikidata": "Q2291298",
@@ -14241,7 +14236,7 @@ myData_RER={
     "ref:FR:STIF": "22158",
     "source": "STIF - 12/2016",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775863",
     "wheelchair": "yes",
     "wikidata": "Q800660",
@@ -14258,7 +14253,7 @@ myData_RER={
     "name": "Fontenay-aux-Roses",
     "railway": "station",
     "ref:FR:RATP": "1921",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775871",
     "wheelchair": "yes",
     "wikidata": "Q2443290",
@@ -14275,7 +14270,7 @@ myData_RER={
     "name": "Sceaux",
     "railway": "station",
     "ref:FR:RATP": "1701",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775870",
     "wheelchair": "yes",
     "wikidata": "Q3097701",
@@ -14295,7 +14290,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "station",
     "ref:FR:RATP": "1920",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775876",
     "wheelchair": "yes",
     "wikidata": "Q591952",
@@ -14316,7 +14311,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "station",
     "ref:FR:RATP": "1799",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775877",
     "website": "https://www.ratp.fr",
     "wheelchair": "yes",
@@ -14335,7 +14330,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "station",
     "ref:FR:RATP": "1776",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775881",
     "wheelchair": "yes",
     "wikidata": "Q2109088",
@@ -14355,7 +14350,7 @@ myData_RER={
     "ref:FR:RATP": "1810",
     "ref:FR:STIF": "412846",
     "source": "STIF - 12/2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775882",
     "wheelchair": "yes",
     "wikidata": "Q20113",
@@ -14374,7 +14369,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1884",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775883",
     "wheelchair": "yes",
     "wikidata": "Q2196786",
@@ -14398,7 +14393,7 @@ myData_RER={
     "ref:FR:RATP": "1772",
     "ref:FR:STIF": "412794",
     "station": "light_rail",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775884",
     "wheelchair": "yes",
     "wikidata": "Q1889954",
@@ -14416,7 +14411,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "station",
     "ref:FR:RATP": "1934",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775885",
     "wheelchair": "yes",
     "wikidata": "Q3096100",
@@ -14435,7 +14430,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1873",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775886",
     "wheelchair": "yes",
     "wikidata": "Q2427487",
@@ -14453,7 +14448,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "station",
     "ref:FR:RATP": "1847",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775887",
     "wheelchair": "yes",
     "wikidata": "Q2276723",
@@ -14471,7 +14466,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "station",
     "ref:FR:RATP": "1891",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775888",
     "wheelchair": "yes",
     "wikidata": "Q764920",
@@ -14496,7 +14491,7 @@ myData_RER={
     "subway": "yes",
     "tactile_paving": "yes",
     "train": "no",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1783889",
     "wikipedia": "fr:Sentier (métro de Paris)"
   }
@@ -14519,7 +14514,7 @@ myData_RER={
     "subway": "yes",
     "tactile_paving": "yes",
     "train": "no",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1783889",
     "wikipedia": "fr:Sentier (métro de Paris)"
   }
@@ -14537,7 +14532,7 @@ myData_RER={
     "railway": "tram_stop",
     "source": "RATP - 07/2012",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -14553,7 +14548,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87540179",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754017",
     "wikipedia": "fr:Gare de Dourdan-la-Forêt"
   }
@@ -14569,7 +14564,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:uic8": "87545525",
     "source": "SNCF - 08/2015",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754552",
     "wikidata": "Q2398073",
     "wikipedia": "fr:Gare de Dourdan"
@@ -14587,7 +14582,7 @@ myData_RER={
     "operator": "SNCF",
     "railway": "station",
     "ref:FR:uic8": "87545517",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754551",
     "wikidata": "Q2390290",
     "wikipedia": "fr:Gare de Sermaise"
@@ -14604,7 +14599,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5576",
     "ref:FR:uic8": "87276170",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727617",
     "wikidata": "Q3097544",
     "wikipedia": "fr:Gare de Saint-Gratien"
@@ -14626,7 +14621,7 @@ myData_RER={
     "start_date": "1998-05-25",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1783803",
     "wikipedia": "fr:Saint-Denis - Université (métro de Paris)"
@@ -14644,7 +14639,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1854",
     "ref:FR:uic8": "87386409",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738640",
     "wheelchair": "yes",
     "wikidata": "Q2468330",
@@ -14665,7 +14660,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1823",
     "ref:FR:uic8": "87386425",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738642",
     "wheelchair": "yes",
     "wikidata": "Q2153668",
@@ -14687,7 +14682,7 @@ myData_RER={
     "ref:SNCF:RER": "A",
     "source": "survey",
     "start_date": "1843-05-09",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "RER",
     "uic_ref": "8738605",
     "wikidata": "Q2133862",
@@ -14706,7 +14701,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "15522",
     "start_date": "1847-08-14",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775809",
     "wheelchair": "yes",
     "wikidata": "Q2582793",
@@ -14726,7 +14721,7 @@ myData_RER={
     "ref:FR:STIF": "412797",
     "source": "STIF - 12/2016",
     "start_date": "1837-08-26",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775806",
     "wheelchair": "yes",
     "wikidata": "Q2415549",
@@ -14746,7 +14741,7 @@ myData_RER={
     "ref:FR:STIF": "412796",
     "source": "STIF - 12/2016",
     "start_date": "1837-08-26",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775805",
     "wheelchair": "yes",
     "wikidata": "Q640806",
@@ -14770,7 +14765,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q946826",
     "wikipedia": "fr:Gambetta (métro de Paris)"
@@ -14792,7 +14787,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "5561",
     "route_ref:FR:RER_D": "SOVA;FUCA;VIPE;LOVA;VUCA;FOVA;LUCA;VOVA;SUCA;VOPA;FOPA;LOPA",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727116",
     "wikidata": "Q2260729",
     "wikipedia": "fr:Gare de Pierrefitte - Stains"
@@ -14813,7 +14808,7 @@ myData_RER={
     "ref:FR:RATP": "1867",
     "ref:FR:STIF": "22170",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q254308",
     "wikipedia": "fr:Kléber (métro de Paris)"
@@ -14834,7 +14829,7 @@ myData_RER={
     "ref:FR:RATP": "1867",
     "ref:FR:STIF": "22170",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q254308",
     "wikipedia": "fr:Kléber (métro de Paris)"
@@ -14861,7 +14856,7 @@ myData_RER={
     "ref:FR:uic8": "87281899",
     "start_date": "1999-07-14",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8728189",
     "wheelchair": "yes",
     "wikidata": "Q800898",
@@ -14883,7 +14878,7 @@ myData_RER={
     "ref": "BDY1",
     "ref:FR:RATP": "139449",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -14902,7 +14897,7 @@ myData_RER={
     "ref:FR:RATP": "139446",
     "ref:FR:uic8": "87113878",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8711387"
   }
 },
@@ -14923,7 +14918,7 @@ myData_RER={
     "ref:FR:STIF": "22056",
     "subway": "yes",
     "tactile_paving": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q568013",
     "wikipedia": "fr:Falguière (métro de Paris)"
@@ -14945,7 +14940,7 @@ myData_RER={
     "ref:FR:STIF": "22056",
     "subway": "yes",
     "tactile_paving": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q568013",
     "wikipedia": "fr:Falguière (métro de Paris)"
@@ -14969,7 +14964,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1417199",
     "wikipedia": "fr:Madeleine (métro de Paris)"
@@ -14989,7 +14984,7 @@ myData_RER={
     "ref:FR:RATP": "20954",
     "ref:FR:uic8": "87681247",
     "route_ref:FR:RER_D": "ZOPO; ROVO; ROPO; BOPO",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8768124",
     "wheelchair": "no",
     "wikidata": "Q801557",
@@ -15011,7 +15006,7 @@ myData_RER={
     "ref:FR:STIF": "22121",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q646583",
     "wikipedia": "fr:Courcelles (métro de Paris)"
@@ -15032,7 +15027,7 @@ myData_RER={
     "ref:FR:uic8": "87543181",
     "ref:structurae": "20027725",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754318",
     "wheelchair": "yes",
     "wikidata": "Q2422009",
@@ -15056,7 +15051,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1783997",
     "wikipedia": "fr:Mairie d'Ivry (métro de Paris)"
@@ -15079,7 +15074,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1672055",
     "wikipedia": "fr:Porte de Bagnolet (métro de Paris)"
@@ -15103,7 +15098,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1284106",
     "wikipedia": "fr:Edgar Quinet (métro de Paris)"
@@ -15125,7 +15120,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1673779",
     "wikipedia": "fr:Olympiades (métro de Paris)"
@@ -15150,7 +15145,7 @@ myData_RER={
     "source:position": "connaissance locale",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q888758",
     "wikipedia": "fr:Bobigny - Pantin - Raymond Queneau (métro de Paris)"
   }
@@ -15171,7 +15166,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "limited",
     "wikidata": "Q1785048",
     "wikipedia": "fr:Porte de Pantin (métro de Paris)"
@@ -15193,7 +15188,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1572249",
     "wikipedia": "fr:Laumière (métro de Paris)"
@@ -15215,7 +15210,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1495676",
     "wikipedia": "fr:Ourcq (métro de Paris)"
@@ -15236,7 +15231,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q585712"
   }
@@ -15256,7 +15251,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q274526",
     "wikipedia": "fr:Église de Pantin (métro de Paris)"
   }
@@ -15277,7 +15272,7 @@ myData_RER={
     "ref:FR:STIF": "22042",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1969289",
     "wikipedia": "fr:Porte de Versailles (métro de Paris)"
@@ -15301,7 +15296,7 @@ myData_RER={
     "ref:SNCF:Transilien": "L",
     "start_date": "2019-08-26",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "type:SNCF": "Transilien",
     "uic_ref": "8738265",
     "wheelchair": "yes",
@@ -15325,7 +15320,7 @@ myData_RER={
     "ref:FR:RATP": "139444",
     "ref:FR:uic8": "87113860",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8711386",
     "wikidata": "Q3098343",
     "wikipedia": "fr:Gargan (tramway d'Île-de-France)"
@@ -15347,7 +15342,7 @@ myData_RER={
     "ref:FR:RATP": "139444",
     "ref:FR:uic8": "87113860",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "uic_ref": "8711386",
     "wikidata": "Q3098343",
     "wikipedia": "fr:Gargan (tramway d'Île-de-France)"
@@ -15365,7 +15360,7 @@ myData_RER={
     "public_transport": "stop_position",
     "railway": "tram_stop",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes",
     "wikidata": "Q28732848"
   }
@@ -15383,7 +15378,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15400,7 +15395,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15417,7 +15412,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15440,7 +15435,7 @@ myData_RER={
     "station": "light_rail",
     "tactile_paving": "yes",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15457,7 +15452,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15474,7 +15469,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15491,7 +15486,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15508,7 +15503,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15525,7 +15520,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15542,7 +15537,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15559,7 +15554,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15576,7 +15571,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15593,7 +15588,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes",
     "wikidata": "Q28655666"
   }
@@ -15611,7 +15606,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15628,7 +15623,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15649,7 +15644,7 @@ myData_RER={
     "source": "STIF - 02/2020",
     "station": "light_rail",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15666,7 +15661,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15683,7 +15678,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15700,7 +15695,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15717,7 +15712,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15734,7 +15729,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15751,7 +15746,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15768,7 +15763,7 @@ myData_RER={
     "public_transport": "station",
     "railway": "tram_stop",
     "station": "light_rail",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15787,7 +15782,7 @@ myData_RER={
     "shelter": "yes",
     "station": "light_rail",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15803,7 +15798,7 @@ myData_RER={
     "public_transport": "stop_position",
     "railway": "tram_stop",
     "tram": "yes",
-    "type:RATP": "tram",
+    "typeRATP": "tram",
     "wheelchair": "yes"
   }
 },
@@ -15825,7 +15820,7 @@ myData_RER={
     "ref:FR:STIF": "22043",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q954566",
     "wikipedia": "fr:Rue du Bac (métro de Paris)"
@@ -15849,7 +15844,7 @@ myData_RER={
     "ref:FR:STIF": "22043",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q954566",
     "wikipedia": "fr:Rue du Bac (métro de Paris)"
@@ -15875,7 +15870,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro;rer",
+    "typeRATP": "metro;rer",
     "wheelchair": "no",
     "wikidata": "Q954566",
     "wikipedia": "fr:Rue du Bac (métro de Paris)"
@@ -15898,7 +15893,7 @@ myData_RER={
     "ref:FR:STIF": "21958",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q614049",
     "wikipedia": "fr:Gare de Lyon (métro de Paris)"
@@ -15921,7 +15916,7 @@ myData_RER={
     "ref:FR:STIF": "21958",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q614049",
     "wikipedia": "fr:Gare de Lyon (métro de Paris)"
@@ -15945,7 +15940,7 @@ myData_RER={
     "ref:FR:STIF": "21903",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1341849",
     "wikipedia": "fr:République (métro de Paris)"
@@ -15969,7 +15964,7 @@ myData_RER={
     "ref:FR:STIF": "21903",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1341849",
     "wikipedia": "fr:République (métro de Paris)"
@@ -15994,7 +15989,7 @@ myData_RER={
     "ref:FR:STIF": "21903",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1341849",
     "wikipedia": "fr:République (métro de Paris)"
@@ -16020,7 +16015,7 @@ myData_RER={
     "ref:FR:STIF": "21903",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1341849",
     "wikipedia": "fr:République (métro de Paris)"
@@ -16045,7 +16040,7 @@ myData_RER={
     "ref:FR:STIF": "21903",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1341849",
     "wikipedia": "fr:République (métro de Paris)"
@@ -16070,7 +16065,7 @@ myData_RER={
     "ref:FR:STIF": "21903",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1341849",
     "wikipedia": "fr:République (métro de Paris)"
@@ -16095,7 +16090,7 @@ myData_RER={
     "ref:FR:STIF": "21903",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1341849",
     "wikipedia": "fr:République (métro de Paris)"
@@ -16120,7 +16115,7 @@ myData_RER={
     "ref:FR:STIF": "21903",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1341849",
     "wikipedia": "fr:République (métro de Paris)"
@@ -16145,7 +16140,7 @@ myData_RER={
     "ref:FR:STIF": "21903",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1341849",
     "wikipedia": "fr:République (métro de Paris)"
@@ -16170,7 +16165,7 @@ myData_RER={
     "ref:FR:STIF": "21903",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1341849",
     "wikipedia": "fr:République (métro de Paris)"
@@ -16196,7 +16191,7 @@ myData_RER={
     "route_ref": "C;13",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro;rer",
+    "typeRATP": "metro;rer",
     "uic_ref": "8711127",
     "wheelchair": "no",
     "wikidata": "Q1969959",
@@ -16219,7 +16214,7 @@ myData_RER={
     "ref:FR:RATP": "228266",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q3462074",
     "wikipedia": "fr:Saint-Denis Pleyel (métro de Paris)"
   }
@@ -16241,7 +16236,7 @@ myData_RER={
     "ref:FR:RATP": "228266",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q3462074",
     "wikipedia": "fr:Saint-Denis Pleyel (métro de Paris)"
   }
@@ -16263,7 +16258,7 @@ myData_RER={
     "ref:FR:RATP": "228266",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q3462074",
     "wikipedia": "fr:Saint-Denis Pleyel (métro de Paris)"
   }
@@ -16283,7 +16278,7 @@ myData_RER={
     "ref:FR:RATP": "1928",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q915581",
     "wikipedia": "fr:Gallieni (métro de Paris)"
   }
@@ -16304,7 +16299,7 @@ myData_RER={
     "ref:FR:uic8": "87271247",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "uic_ref": "8727124",
     "wheelchair": "yes",
     "wikidata": "Q2979015",
@@ -16323,7 +16318,7 @@ myData_RER={
     "railway": "station",
     "ref:FR:RATP": "1993",
     "ref:FR:uic8": "87271411",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727141",
     "wikidata": "Q3095703",
     "wikipedia": "fr:Gare d'Aulnay-sous-Bois"
@@ -16349,7 +16344,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1412692",
     "wikipedia": "fr:Richelieu - Drouot (métro de Paris)"
@@ -16375,7 +16370,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1412692",
     "wikipedia": "fr:Richelieu - Drouot (métro de Paris)"
@@ -16401,7 +16396,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1412692",
     "wikipedia": "fr:Richelieu - Drouot (métro de Paris)"
@@ -16427,7 +16422,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1412692",
     "wikipedia": "fr:Richelieu - Drouot (métro de Paris)"
@@ -16451,7 +16446,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "train": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q950314",
     "wikipedia": "fr:Corvisart (métro de Paris)"
@@ -16472,7 +16467,7 @@ myData_RER={
     "ref:FR:STIF": "22180",
     "source": "STIF - 12/2016",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q891105",
     "wikipedia": "fr:Boissière (métro de Paris)"
@@ -16500,7 +16495,7 @@ myData_RER={
     "name": "Parc de Sceaux",
     "ref:FR:RATP": "1778",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775873",
     "wikipedia": "fr:Gare du Parc de Sceaux"
   }
@@ -16530,7 +16525,7 @@ myData_RER={
     "ref:FR:RATP": "1626",
     "roof:levels": "1",
     "source": "RATP - 07/2012",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775889",
     "wikidata": "Q1990635",
     "wikipedia": "fr:Gare de Saint-Rémy-lès-Chevreuse"
@@ -16584,7 +16579,7 @@ myData_RER={
     "opening_date": "1998-05-25",
     "operator": "RATP",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "type:RATP": "metro"
+    "typeRATP": "metro"
   }
 },
 {
@@ -16649,7 +16644,7 @@ myData_RER={
     "name": "Epinay-sur-Seine",
     "ref:FR:RATP": "5577",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727114",
     "wikipedia": "fr:Gare d'Épinay-sur-Seine"
   }
@@ -16677,7 +16672,7 @@ myData_RER={
     "ref:FR:RATP": "22618",
     "ref:FR:uic8": "87393538",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739353",
     "wikipedia": "fr:Gare de Vauboyen"
   }
@@ -16710,7 +16705,7 @@ myData_RER={
     "ref:FR:RATP": "22619",
     "ref:FR:uic8": "87393512",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739351",
     "wikipedia": "fr:Gare de Jouy-en-Josas"
   }
@@ -16743,7 +16738,7 @@ myData_RER={
     "name": "Gare de Bièvres",
     "ref:FR:RATP": "22617",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739354",
     "wikipedia": "fr:Gare de Bièvres"
   }
@@ -16775,7 +16770,7 @@ myData_RER={
     "name": "Massy - Verrières",
     "ref:FR:RATP": "1833",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "type:RATP": "rer"
+    "typeRATP": "rer"
   }
 },
 {
@@ -16817,7 +16812,7 @@ myData_RER={
     "roof:shape": "flat",
     "shelter": "yes",
     "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739316",
     "wheelchair": "no",
     "wikipedia": "fr:Gare de Porchefontaine"
@@ -16853,7 +16848,7 @@ myData_RER={
     "roof:levels": "0",
     "roof:shape": "flat",
     "station": "subway",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no",
     "wikidata": "Q1845408",
     "wikipedia": "fr:Créteil - Préfecture (métro de Paris)"
@@ -16906,7 +16901,7 @@ myData_RER={
     "ref:FR:RATP": "1983;11037",
     "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775875",
     "wikipedia": "fr:Gare d'Antony"
   }
@@ -16947,7 +16942,7 @@ myData_RER={
     "roof:levels": "1",
     "roof:shape": "hipped",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754550",
     "wikipedia": "fr:Gare de Saint-Chéron"
   }
@@ -16986,7 +16981,7 @@ myData_RER={
     "ref:FR:RATP": "16505",
     "roof:levels": "1",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739361",
     "wikipedia": "fr:Gare de Longjumeau"
   }
@@ -17019,7 +17014,7 @@ myData_RER={
     "level": "0",
     "name": "Igny",
     "ref:FR:RATP": "22616",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739356",
     "wikipedia": "fr:Gare d'Igny"
   }
@@ -17058,7 +17053,7 @@ myData_RER={
     "ref:FR:RATP": "1935",
     "roof:levels": "0",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775498",
     "wheelchair": "yes",
     "wikipedia": "fr:Gare de Bussy-Saint-Georges"
@@ -17140,7 +17135,7 @@ myData_RER={
     "ref:FR:RATP": "5588",
     "ref:FR:uic8": "87393843",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739384",
     "wheelchair": "limited",
     "wikipedia": "fr:Gare de Saint-Quentin-en-Yvelines - Montigny-le-Bretonneux"
@@ -17169,7 +17164,7 @@ myData_RER={
     "operator": "SNCF",
     "ref:FR:RATP": "20976",
     "source": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "wikipedia": "fr:Gare de Mennecy"
   }
 },
@@ -17211,7 +17206,7 @@ myData_RER={
     "ref:FR:STIF": "40946",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
     "start_date": "1859-09-22",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775818",
     "wheelchair": "yes",
     "wikidata": "Q2411555",
@@ -17251,7 +17246,7 @@ myData_RER={
     "roof:shape": "gabled",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
     "source:railway": "survey",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739308",
     "wheelchair": "no",
     "wikipedia": "fr:Gare de Meudon-Val-Fleury"
@@ -17293,7 +17288,7 @@ myData_RER={
     "roof:levels": "1",
     "roof:shape": "pyramidal",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8704220",
     "wikipedia": "fr:Gare de Pierrelaye"
   }
@@ -17325,7 +17320,7 @@ myData_RER={
     "name": "Petit Vaux",
     "ref:FR:RATP": "16502",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739365",
     "wikidata": "Q3097273",
     "wikipedia": "fr:Gare de Petit Vaux"
@@ -17351,7 +17346,7 @@ myData_RER={
     "name": "Chilly-Mazarin",
     "ref:FR:RATP": "16504",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "wikipedia": "fr:Gare de Chilly-Mazarin"
   }
 },
@@ -17392,7 +17387,7 @@ myData_RER={
     "operator": "SNCF",
     "ref:FR:RATP": "5564",
     "route_ref:FR:RER_D": "SOVA;FUCA;LOVA;FOVA;LUCA;SUCA;FOPA;LOPA",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727624",
     "wikipedia": "fr:Gare de Goussainville"
   }
@@ -17432,7 +17427,7 @@ myData_RER={
     "ref:FR:STIF": "412718",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
     "start_date": "1859-09-22",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775816",
     "wheelchair": "limited",
     "wikidata": "Q1962078",
@@ -17475,7 +17470,7 @@ myData_RER={
     "ref:FR:STIF": "412719",
     "source": "bing",
     "start_date": "1859-09-22",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775815",
     "wheelchair": "yes",
     "wikidata": "Q738781",
@@ -17528,7 +17523,7 @@ myData_RER={
     "ref": "RER B",
     "ref:FR:RATP": "1880",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775866",
     "website": "https://www.ratp.fr/",
     "wheelchair": "yes",
@@ -17565,7 +17560,7 @@ myData_RER={
     "note": "détailler les 2 quais et leurs équipements",
     "operator": "SNCF",
     "ref:FR:RATP": "5585",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8738104",
     "wikidata": "Q2266818",
     "wikipedia": "fr:Gare de l'avenue Henri Martin"
@@ -17625,7 +17620,7 @@ myData_RER={
     "ref:FR:uic8": "87393843",
     "roof:levels": "0",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739384",
     "wheelchair": "limited",
     "wikipedia": "fr:Gare de Saint-Quentin-en-Yvelines - Montigny-le-Bretonneux"
@@ -17650,7 +17645,7 @@ myData_RER={
     "name": "Créteil Pompadour-(Parc Interdépartemental des Sports)",
     "operator": "SNCF",
     "start_date": "2013-12-15",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8760880",
     "wikipedia": "fr:Gare de Créteil-Pompadour"
   }
@@ -17677,7 +17672,7 @@ myData_RER={
     "name": "Petit Jouy - Les Loges",
     "ref:FR:RATP": "22620",
     "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2013",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "wikipedia": "fr:Gare de Petit Jouy - Les Loges"
   }
 },
@@ -17708,7 +17703,7 @@ myData_RER={
     "ref:mhs": "PA00086550",
     "room": "stairs",
     "start_date": "1904",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wikidata": "Q1341849",
     "wikipedia": "fr:République (métro de Paris)"
   }
@@ -17877,7 +17872,7 @@ myData_RER={
     "roof:levels": "0",
     "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
     "source:heritage": "data.gouv.fr:Ministère de la Culture - 04/2015",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739300",
     "website": "http://www.gares-sncf.com/fr/gare/frdht/versailles-chantiers",
     "website:schedules": "http://www.gares-sncf.com/fr/gare/frdht/versailles-chantiers",
@@ -17913,7 +17908,7 @@ myData_RER={
     "ref:SNCF:RER": "C",
     "speech_output:fr": "yes",
     "tactile_writing:braille:fr": "yes",
-    "type:RATP": "rer;metro",
+    "typeRATP": "rer;metro",
     "type:SNCF": "rer;metro",
     "wheelchair": "yes"
   }
@@ -17946,7 +17941,7 @@ myData_RER={
     "ref:FR:STIF": "412801",
     "source": "STIF - 12/2016",
     "start_date": "1859-09-22",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8775817",
     "wheelchair": "yes",
     "wikidata": "Q2520631",
@@ -17993,7 +17988,7 @@ myData_RER={
     "name": "Montigny - Beauchamp",
     "ref:FR:RATP": "5572",
     "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8727608",
     "wikipedia": "fr:Gare de Montigny - Beauchamp"
   }
@@ -18020,7 +18015,7 @@ myData_RER={
     "name": "Massy-Palaiseau RER B",
     "ref:FR:RATP": "1832",
     "source": "SNCF Transilien - Plans d'architecte et plan de communication - Prestation de saisie réalisée par Arx IT en hiver 2016",
-    "type:RATP": "rer"
+    "typeRATP": "rer"
   }
 },
 {
@@ -18062,7 +18057,7 @@ myData_RER={
     "roof:levels": "2",
     "roof:shape": "many",
     "source": "SNCF Transilien - Plans d'architecte et plan de communication - Prestation de saisie réalisée par Arx IT en hiver 2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739317",
     "wheelchair": "no",
     "wikidata": "Q2868815",
@@ -18104,7 +18099,7 @@ myData_RER={
     "operator": "SNCF",
     "ref:FR:RATP": "5584",
     "source": "SNCF Transilien - Plans d'architecte et plan de communication - Prestation de saisie réalisée par Arx IT en hiver 2016",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8754320",
     "wikidata": "Q800418",
     "wikipedia": "fr:Gare de l'avenue Foch"
@@ -18148,7 +18143,7 @@ myData_RER={
     "ref:SNCF": "RER",
     "ref:SNCF:RER": "C",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8739307",
     "wheelchair": "no",
     "wikidata": "Q3095806",
@@ -18189,7 +18184,7 @@ myData_RER={
     "surface": "asphalt",
     "train": "yes",
     "tunnel": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no"
   }
 },
@@ -18225,7 +18220,7 @@ myData_RER={
     "surface": "asphalt",
     "train": "yes",
     "tunnel": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no"
   }
 },
@@ -18261,7 +18256,7 @@ myData_RER={
     "subway": "yes",
     "surface": "asphalt",
     "tunnel": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "no"
   }
 },
@@ -18305,7 +18300,7 @@ myData_RER={
     "subway": "yes",
     "surface": "asphalt",
     "tunnel": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "limited"
   }
 },
@@ -18348,7 +18343,7 @@ myData_RER={
     "station": "subway",
     "subway": "yes",
     "tunnel": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q1344555",
     "wikipedia": "fr:Pont de Neuilly (métro de Paris)"
@@ -18462,7 +18457,7 @@ myData_RER={
     "ref:FR:RATP": "51922",
     "ref:FR:uic8": "87281899",
     "train": "yes",
-    "type:RATP": "rer",
+    "typeRATP": "rer",
     "uic_ref": "8728189",
     "wikidata": "Q800898",
     "wikipedia": "fr:Gare d'Haussmann - Saint-Lazare"
@@ -18500,7 +18495,7 @@ myData_RER={
     "source": "STIF - 12/2016",
     "station": "subway",
     "subway": "yes",
-    "type:RATP": "metro",
+    "typeRATP": "metro",
     "wheelchair": "yes",
     "wikidata": "Q733618",
     "wikipedia": "fr:Asnières - Gennevilliers - Les Courtilles (métro de Paris)"
