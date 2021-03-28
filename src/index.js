@@ -5,38 +5,59 @@ import Map from './map.js';
 
 
 var canvas=document.getElementById("gameScreen");
-canvas.width=1500;
-canvas.height=1500;
+canvas.width=1000;
+canvas.height=1000;
  
 var ctx = canvas.getContext("2d");
  
-/* ---- VELIB -----
+// ---- VELIB -----
+/*
 var importStations_Velib=MyData_Velib.data.stations;
 var arrayStation_Velib = [];
 
 arrayStation_Velib=loadStations_Velib(importStations_Velib);
 var myMap_Velib=new Map(canvas,arrayStation_Velib);
 myMap_Velib.drawAllStations(canvas,arrayStation_Velib);
-
-*/ 
+*/
 
 // ---- METRO -----
-var importStations_Metro=MyData_METRO_RER.elements;
+var importStations_Metro=MyData_METRO_RER2;
 var arrayStation_Metro = [];
 
-arrayStation_Metro=loadStations_Metro(importStations_Metro);
+arrayStation_Metro=loadStations_Metro2(importStations_Metro);
 
 var myMap_Metro=new Map(canvas,arrayStation_Metro);
 myMap_Metro.drawAllStations(canvas,arrayStation_Metro);
+function loadStations_Metro2(pData)
+{
 
-  function loadStations_Metro(pData)
+  var i=0;
+  var arrayStation_Metro=[];
+  for (i=0;i<pData.length;i++)
+  {
+    
+  
+    if(pData[i].fields.reseau=="METRO")
+    {
+      
+    if(pData[i].fields.indice_lig=="9")console.log(pData[i].fields);
+      
+    var station=new Station_Metro(pData[i].fields.geo_point_2d[0],pData[i].fields.geo_point_2d[1],pData[i].fields.nom_gare,pData[i].fields.reseau,pData[i].fields.gares_id);
+    arrayStation_Metro.push(station);
+    }
+  }
+    return arrayStation_Metro;
+    
+}
+
+function loadStations_Metro(pData)
   {
     var i=0;
     var arrayStation_Metro=[];
     for (i=0;i<pData.length;i++)
     {
       //alert(pData[i].tags.name);
-      if(pData[i].type=="node" && pData[i].tags!=null) // JDD : node = stations ?
+      if(pData[i].type=="node" && pData[i].tags!=null && pData[i].tags.typeRATP=="metro") // JDD : node = stations ?
       {
 
         console.log(pData[i].id);
