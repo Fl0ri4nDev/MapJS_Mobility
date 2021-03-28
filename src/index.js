@@ -21,14 +21,15 @@ myMap_Velib.drawAllStations(canvas,arrayStation_Velib);
 */
 
 // ---- METRO -----
-var importStations_Metro=MyData_METRO_RER2;
+var importStations_Metro=MyData_METRO_RER;
 var arrayStation_Metro = [];
 
-arrayStation_Metro=loadStations_Metro2(importStations_Metro);
+arrayStation_Metro=loadStations_Metro(importStations_Metro);
 
 var myMap_Metro=new Map(canvas,arrayStation_Metro);
 myMap_Metro.drawAllStations(canvas,arrayStation_Metro);
-function loadStations_Metro2(pData)
+
+function loadStations_Metro(pData)
 {
 
   var i=0;
@@ -40,33 +41,23 @@ function loadStations_Metro2(pData)
     if(pData[i].fields.reseau=="METRO")
     {
       
-    if(pData[i].fields.indice_lig=="9")console.log(pData[i].fields);
       
-    var station=new Station_Metro(pData[i].fields.geo_point_2d[0],pData[i].fields.geo_point_2d[1],pData[i].fields.nom_gare,pData[i].fields.reseau,pData[i].fields.gares_id);
+    var station=new Station_Metro(pData[i].fields.geo_point_2d[0],pData[i].fields.geo_point_2d[1],pData[i].fields.nom_gare,pData[i].fields.reseau,pData[i].fields.ligne_code);
     arrayStation_Metro.push(station);
+    if(station.line=="1") console.log(station);
     }
   }
     return arrayStation_Metro;
     
 }
 
-function loadStations_Metro(pData)
-  {
-    var i=0;
-    var arrayStation_Metro=[];
-    for (i=0;i<pData.length;i++)
-    {
-      //alert(pData[i].tags.name);
-      if(pData[i].type=="node" && pData[i].tags!=null && pData[i].tags.typeRATP=="metro") // JDD : node = stations ?
-      {
+var i=0;
+for(i=0;i<arrayStation_Metro.length;i++)
+{
+  arrayStation_Metro[i].findNextStation(arrayStation_Metro);
+}
 
-        console.log(pData[i].id);
-      var station=new Station_Metro(pData[i].lat,pData[i].lon,pData[i].tags.name,pData[i].tags.typeRATP,pData[i].id);
-      arrayStation_Metro.push(station);
-      }
-    }
-      return arrayStation_Metro;
-  }
+//console.log (arrayStation_Metro);
 
 
 document.addEventListener("keydown", keyDownTextField, false);
