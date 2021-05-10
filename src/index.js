@@ -2,23 +2,25 @@ import Station_Velib from "./station_Velib.js";
 import Station_Metro from "./station_Metro.js";
 import Map from './map.js';
 
-
+import { MyData_METRO_RER } from '../importStations_Metro.js'
+import { MyData_Velib } from '../importStations_Velib.js'
 
 var canvas=document.getElementById("gameScreen");
 canvas.width=1000;
 canvas.height=1000;
  
-var ctx = canvas.getContext("2d");
+//var ctx = canvas.getContext("2d");
  
+
 // ---- VELIB -----
-/*
+
 var importStations_Velib=MyData_Velib.data.stations;
 var arrayStation_Velib = [];
 
-arrayStation_Velib=loadStations_Velib(importStations_Velib);
+//arrayStation_Velib=loadStations_Velib(importStations_Velib);
 var myMap_Velib=new Map(canvas,arrayStation_Velib);
 myMap_Velib.drawAllStations(canvas,arrayStation_Velib);
-*/
+
 
 // ---- METRO -----
 var importStations_Metro=MyData_METRO_RER;
@@ -38,13 +40,13 @@ function loadStations_Metro(pData)
   {
     
   
-    if(pData[i].fields.reseau=="METRO")
+    if(pData[i].fields.reseau==="METRO")
     {
       
       
     var station=new Station_Metro(pData[i].fields.geo_point_2d[0],pData[i].fields.geo_point_2d[1],pData[i].fields.nom_gare,pData[i].fields.reseau,pData[i].fields.ligne_code);
     arrayStation_Metro.push(station);
-    if(station.line=="1") console.log(station);
+    if(station.line==="1")console.log(station);
     }
   }
     return arrayStation_Metro;
@@ -73,9 +75,6 @@ canvas.addEventListener('click', (e) => {
 );
 
 
-
-
-
 function loadStations_Velib(pData)
 {
   var i=0;
@@ -90,14 +89,11 @@ function loadStations_Velib(pData)
 }
 
 
-
-
-
 function onClickCanvas(canvas,x,y)
 {
-  var clickedStationID=myMap_Velib.getClickedStationID (canvas,x,y,arrayStation_Velib);
-  if (clickedStationID==-1)return;
-  document.getElementById("stationDepart").innerHTML="Depart : "+arrayStation_Velib[clickedStationID].stationName;
+  var clickedStationID=myMap_Metro.getClickedStationID (canvas,x,y,arrayStation_Metro);
+  if (clickedStationID<0)return;
+  document.getElementById("stationDepart").innerHTML="Depart : "+arrayStation_Metro[clickedStationID].stationName;
   document.getElementById("stationArrivee").innerHTML="Arrivée : ";
   
 
@@ -105,11 +101,11 @@ function onClickCanvas(canvas,x,y)
 
 function keyDownTextField(e) {
   var keyCode = e.keyCode;
-    if(keyCode==13) {
+    if(keyCode===13) {
       myMap_Velib.clearStations(canvas);
-    } else if(keyCode==16){
+    } else if(keyCode===16){
       myMap_Velib.drawAllStations(canvas,arrayStation_Velib);
-    } else if(keyCode==107)
+    } else if(keyCode===107)
     {
       myMap_Velib.clearStations(canvas);
       canvas.width+=100;
@@ -117,8 +113,9 @@ function keyDownTextField(e) {
       myMap_Velib.drawAllStations(canvas,arrayStation_Velib);
     }
   
-    else if(keyCode==109)
+    else if(keyCode===109)
     {
+     
       myMap_Velib.clearStations(canvas);
       canvas.width-=100;
       canvas.height-=100;

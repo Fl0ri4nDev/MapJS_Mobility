@@ -88,7 +88,7 @@ export default class Map{
 
     constructor (canvas,pListeStations)
     {
-        var ctx=canvas.getContext("2d");
+        //var ctx=canvas.getContext("2d");
        var self=this;
         
        canvas.addEventListener('mousemove', function (e){
@@ -105,13 +105,8 @@ export default class Map{
     }
 
 
-
-
-
-
     getClickedStationID(canvas,cursor_x,cursor_y,pArrayStations)
     {
-        var rect = canvas.getBoundingClientRect();
         var canvas_HEIGHT=canvas.height;
         var canvas_WIDTH=canvas.width;
         
@@ -142,11 +137,7 @@ export default class Map{
   
         
       }
-      
-    
-    
-    
-    
+     
     //Conversion des degrés en radian
     convertRad(input){
       return (Math.PI * input)/180;
